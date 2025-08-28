@@ -1,4232 +1,518 @@
 [
-  {
-    "id": 1,
-    "firstName": "Dominik",
-    "lastName": "Kapka",
-    "role": "QA Engineer",
-    "email": "elizabudkiewicz@grupa.com",
-    "phone": "+48 799 601 577",
-    "photo": "https://randomuser.me/api/portraits/women/7.jpg",
-    "hireDate": "2013-09-17",
-    "employmentHistory": [
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-717",
-        "startDate": "2018-12-23",
-        "endDate": "2023-07-06"
-      },
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-695",
-        "startDate": "2017-06-30",
-        "endDate": "2021-02-04"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "firstName": "Eryk",
-    "lastName": "Kościelak",
-    "role": "Fullstack Developer",
-    "email": "qkupaj@gmail.com",
-    "phone": "+48 32 707 08 94",
-    "photo": "https://randomuser.me/api/portraits/women/26.jpg",
-    "hireDate": "2014-10-13",
-    "employmentHistory": [
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-220",
-        "startDate": "2017-04-07",
-        "endDate": "2017-10-08"
-      },
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-411",
-        "startDate": "2021-11-17",
-        "endDate": "2022-11-07"
-      },
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-944",
-        "startDate": "2022-09-01",
-        "endDate": "2023-09-16"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "firstName": "Anastazja",
-    "lastName": "Pachowicz",
-    "role": "DevOps Engineer",
-    "email": "nmietka@czerkies-ofiara.pl",
-    "phone": "+48 699 142 348",
-    "photo": "https://randomuser.me/api/portraits/women/85.jpg",
-    "hireDate": "2020-11-05",
-    "employmentHistory": [
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-202",
-        "startDate": "2018-07-14",
-        "endDate": "2019-11-12"
-      },
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-849",
-        "startDate": "2017-05-25",
-        "endDate": "2018-08-08"
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "firstName": "Dorota",
-    "lastName": "Martyn",
-    "role": "UI/UX Designer",
-    "email": "maksymilian07@gabinety.pl",
-    "phone": "+48 789 307 578",
-    "photo": "https://randomuser.me/api/portraits/men/32.jpg",
-    "hireDate": "2022-11-17",
-    "employmentHistory": [
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-166",
-        "startDate": "2018-12-14",
-        "endDate": "2024-06-04"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "firstName": "Kornel",
-    "lastName": "Szyja",
-    "role": "Frontend Developer",
-    "email": "marikatyniec@gabinety.pl",
-    "phone": "791 140 417",
-    "photo": "https://randomuser.me/api/portraits/women/5.jpg",
-    "hireDate": "2022-12-17",
-    "employmentHistory": [
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-141",
-        "startDate": "2018-09-24",
-        "endDate": "2022-08-21"
-      },
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-459",
-        "startDate": "2021-01-13",
-        "endDate": "2024-08-28"
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "firstName": "Michał",
-    "lastName": "Giec",
-    "role": "DevOps Engineer",
-    "email": "elzbietalenik@hotmail.com",
-    "phone": "515 572 254",
-    "photo": "https://randomuser.me/api/portraits/men/73.jpg",
-    "hireDate": "2014-02-19",
-    "employmentHistory": [
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-921",
-        "startDate": "2021-02-22",
-        "endDate": "2022-06-09"
-      },
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-342",
-        "startDate": "2018-07-25",
-        "endDate": "2024-04-08"
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "firstName": "Jakub",
-    "lastName": "Kiryluk",
-    "role": "Frontend Developer",
-    "email": "jereczekernest@o2.pl",
-    "phone": "+48 887 466 677",
-    "photo": "https://randomuser.me/api/portraits/men/24.jpg",
-    "hireDate": "2021-04-08",
-    "employmentHistory": [
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-589",
-        "startDate": "2019-02-07",
-        "endDate": "2021-03-07"
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "firstName": "Cezary",
-    "lastName": "Ładziak",
-    "role": "DevOps Engineer",
-    "email": "robert40@fundacja.com",
-    "phone": "+48 22 052 60 87",
-    "photo": "https://randomuser.me/api/portraits/women/42.jpg",
-    "hireDate": "2018-02-12",
-    "employmentHistory": [
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-970",
-        "startDate": "2018-05-19",
-        "endDate": "2021-04-04"
-      },
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-703",
-        "startDate": "2019-08-31",
-        "endDate": "2021-06-20"
-      },
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-854",
-        "startDate": "2017-01-13",
-        "endDate": "2022-07-27"
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "firstName": "Franciszek",
-    "lastName": "Leszcz",
-    "role": "Frontend Developer",
-    "email": "jedrzejkopyt@wasiewicz-widuch.com",
-    "phone": "+48 609 319 664",
-    "photo": "https://randomuser.me/api/portraits/women/88.jpg",
-    "hireDate": "2013-02-08",
-    "employmentHistory": [
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-458",
-        "startDate": "2017-04-06",
-        "endDate": "2022-09-01"
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "firstName": "Wojciech",
-    "lastName": "Prucnal",
-    "role": "UI/UX Designer",
-    "email": "saracierpka@pres.org",
-    "phone": "+48 884 461 352",
-    "photo": "https://randomuser.me/api/portraits/men/99.jpg",
-    "hireDate": "2016-09-30",
-    "employmentHistory": [
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-695",
-        "startDate": "2017-03-31",
-        "endDate": "2022-11-18"
-      },
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-172",
-        "startDate": "2017-04-11",
-        "endDate": "2020-05-12"
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "firstName": "Agnieszka",
-    "lastName": "Ruchała",
-    "role": "Frontend Developer",
-    "email": "piotr43@gabinety.pl",
-    "phone": "+48 738 583 263",
-    "photo": "https://randomuser.me/api/portraits/men/63.jpg",
-    "hireDate": "2024-04-24",
-    "employmentHistory": [
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-987",
-        "startDate": "2022-08-05",
-        "endDate": "2025-05-02"
-      },
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-283",
-        "startDate": "2018-02-22",
-        "endDate": "2024-04-05"
-      }
-    ]
-  },
-  {
-    "id": 12,
-    "firstName": "Jacek",
-    "lastName": "Oleszko",
-    "role": "UI/UX Designer",
-    "email": "eboksa@yahoo.com",
-    "phone": "663 858 590",
-    "photo": "https://randomuser.me/api/portraits/women/27.jpg",
-    "hireDate": "2020-09-24",
-    "employmentHistory": [
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-402",
-        "startDate": "2022-07-11",
-        "endDate": "2023-08-10"
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "firstName": "Marek",
-    "lastName": "Nyc",
-    "role": "Backend Developer",
-    "email": "ujezyk@fpuh.com",
-    "phone": "730 328 666",
-    "photo": "https://randomuser.me/api/portraits/women/30.jpg",
-    "hireDate": "2016-10-22",
-    "employmentHistory": [
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-325",
-        "startDate": "2017-02-04",
-        "endDate": "2021-06-14"
-      }
-    ]
-  },
-  {
-    "id": 14,
-    "firstName": "Karol",
-    "lastName": "Pałac",
-    "role": "Business Analyst",
-    "email": "michal54@grupa.pl",
-    "phone": "+48 571 566 120",
-    "photo": "https://randomuser.me/api/portraits/men/79.jpg",
-    "hireDate": "2016-12-25",
-    "employmentHistory": [
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-609",
-        "startDate": "2018-03-17",
-        "endDate": "2021-12-02"
-      },
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-729",
-        "startDate": "2017-01-12",
-        "endDate": "2020-02-13"
-      },
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-976",
-        "startDate": "2022-05-12",
-        "endDate": "2024-09-06"
-      }
-    ]
-  },
-  {
-    "id": 15,
-    "firstName": "Bruno",
-    "lastName": "Glazik",
-    "role": "QA Engineer",
-    "email": "machoncezary@gmail.com",
-    "phone": "+48 662 540 111",
-    "photo": "https://randomuser.me/api/portraits/women/60.jpg",
-    "hireDate": "2014-12-06",
-    "employmentHistory": [
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-387",
-        "startDate": "2018-12-31",
-        "endDate": "2022-12-05"
-      },
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-631",
-        "startDate": "2023-03-08",
-        "endDate": "2025-04-28"
-      },
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-229",
-        "startDate": "2017-06-11",
-        "endDate": "2023-04-14"
-      }
-    ]
-  },
-  {
-    "id": 16,
-    "firstName": "Ewelina",
-    "lastName": "Deneka",
-    "role": "QA Engineer",
-    "email": "stillernikodem@grupa.net",
-    "phone": "+48 660 836 044",
-    "photo": "https://randomuser.me/api/portraits/men/33.jpg",
-    "hireDate": "2019-11-09",
-    "employmentHistory": [
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-643",
-        "startDate": "2019-01-07",
-        "endDate": "2021-06-04"
-      },
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-914",
-        "startDate": "2022-06-15",
-        "endDate": "2023-04-04"
-      },
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-574",
-        "startDate": "2019-11-20",
-        "endDate": "2021-01-09"
-      }
-    ]
-  },
-  {
-    "id": 17,
-    "firstName": "Daniel",
-    "lastName": "Przewoźny",
-    "role": "Backend Developer",
-    "email": "patryk39@o2.pl",
-    "phone": "+48 32 097 15 24",
-    "photo": "https://randomuser.me/api/portraits/men/10.jpg",
-    "hireDate": "2010-10-07",
-    "employmentHistory": [
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-159",
-        "startDate": "2018-10-20",
-        "endDate": "2019-10-01"
-      },
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-763",
-        "startDate": "2018-05-20",
-        "endDate": "2021-10-18"
-      },
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-492",
-        "startDate": "2018-10-29",
-        "endDate": "2020-11-06"
-      }
-    ]
-  },
-  {
-    "id": 18,
-    "firstName": "Albert",
-    "lastName": "Jasina",
-    "role": "Business Analyst",
-    "email": "wbuszta@gmail.com",
-    "phone": "721 541 513",
-    "photo": "https://randomuser.me/api/portraits/men/79.jpg",
-    "hireDate": "2013-01-14",
-    "employmentHistory": [
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-382",
-        "startDate": "2020-04-27",
-        "endDate": "2022-10-06"
-      },
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-429",
-        "startDate": "2020-02-15",
-        "endDate": "2022-11-03"
-      }
-    ]
-  },
-  {
-    "id": 19,
-    "firstName": "Elżbieta",
-    "lastName": "Markiel",
-    "role": "QA Engineer",
-    "email": "wyrobekelzbieta@ppuh.pl",
-    "phone": "+48 538 844 219",
-    "photo": "https://randomuser.me/api/portraits/men/92.jpg",
-    "hireDate": "2020-03-20",
-    "employmentHistory": [
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-801",
-        "startDate": "2015-12-12",
-        "endDate": "2024-07-24"
-      }
-    ]
-  },
-  {
-    "id": 20,
-    "firstName": "Leonard",
-    "lastName": "Faruga",
-    "role": "Project Manager",
-    "email": "pastuszkoigor@stowarzyszenie.org",
-    "phone": "883 781 572",
-    "photo": "https://randomuser.me/api/portraits/women/69.jpg",
-    "hireDate": "2024-05-15",
-    "employmentHistory": [
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-294",
-        "startDate": "2021-08-02",
-        "endDate": "2025-01-06"
-      }
-    ]
-  },
-  {
-    "id": 21,
-    "firstName": "Patryk",
-    "lastName": "Lepianka",
-    "role": "Backend Developer",
-    "email": "jedrzejkarpik@fundacja.com",
-    "phone": "515 865 540",
-    "photo": "https://randomuser.me/api/portraits/men/57.jpg",
-    "hireDate": "2017-07-27",
-    "employmentHistory": [
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-371",
-        "startDate": "2019-01-14",
-        "endDate": "2024-02-20"
-      },
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-494",
-        "startDate": "2016-07-30",
-        "endDate": "2019-02-12"
-      }
-    ]
-  },
-  {
-    "id": 22,
-    "firstName": "Witold",
-    "lastName": "Dej",
-    "role": "Business Analyst",
-    "email": "natantusk@interia.pl",
-    "phone": "+48 791 927 322",
-    "photo": "https://randomuser.me/api/portraits/men/47.jpg",
-    "hireDate": "2011-12-16",
-    "employmentHistory": [
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-952",
-        "startDate": "2023-05-09",
-        "endDate": "2024-01-08"
-      }
-    ]
-  },
-  {
-    "id": 23,
-    "firstName": "Błażej",
-    "lastName": "Leszkiewicz",
-    "role": "DevOps Engineer",
-    "email": "reichelcyprian@o2.pl",
-    "phone": "517 071 955",
-    "photo": "https://randomuser.me/api/portraits/men/13.jpg",
-    "hireDate": "2014-03-07",
-    "employmentHistory": [
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-745",
-        "startDate": "2023-04-14",
-        "endDate": "2023-06-27"
-      },
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-295",
-        "startDate": "2023-07-30",
-        "endDate": "2024-06-14"
-      }
-    ]
-  },
-  {
-    "id": 24,
-    "firstName": "Olgierd",
-    "lastName": "Łodej",
-    "role": "Business Analyst",
-    "email": "ernestmatraszek@hotmail.com",
-    "phone": "509 369 878",
-    "photo": "https://randomuser.me/api/portraits/women/97.jpg",
-    "hireDate": "2013-06-27",
-    "employmentHistory": [
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-625",
-        "startDate": "2022-10-24",
-        "endDate": "2025-05-08"
-      }
-    ]
-  },
-  {
-    "id": 25,
-    "firstName": "Ernest",
-    "lastName": "Gotfryd",
-    "role": "Business Analyst",
-    "email": "xpiesik@stowarzyszenie.com",
-    "phone": "506 492 846",
-    "photo": "https://randomuser.me/api/portraits/women/98.jpg",
-    "hireDate": "2022-08-23",
-    "employmentHistory": [
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-482",
-        "startDate": "2023-01-23",
-        "endDate": "2023-07-06"
-      },
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-191",
-        "startDate": "2016-08-13",
-        "endDate": "2021-07-05"
-      },
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-938",
-        "startDate": "2017-04-07",
-        "endDate": "2023-04-10"
-      }
-    ]
-  },
-  {
-    "id": 26,
-    "firstName": "Norbert",
-    "lastName": "Stochmal",
-    "role": "Business Analyst",
-    "email": "rozakolman@onet.pl",
-    "phone": "+48 535 190 490",
-    "photo": "https://randomuser.me/api/portraits/women/48.jpg",
-    "hireDate": "2014-04-13",
-    "employmentHistory": [
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-499",
-        "startDate": "2015-08-28",
-        "endDate": "2025-06-14"
-      },
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-849",
-        "startDate": "2021-05-07",
-        "endDate": "2022-02-20"
-      }
-    ]
-  },
-  {
-    "id": 27,
-    "firstName": "Robert",
-    "lastName": "Sałuda",
-    "role": "Project Manager",
-    "email": "usatora@fiedoruk-cal.pl",
-    "phone": "22 522 52 55",
-    "photo": "https://randomuser.me/api/portraits/women/34.jpg",
-    "hireDate": "2019-03-27",
-    "employmentHistory": [
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-179",
-        "startDate": "2020-02-03",
-        "endDate": "2021-07-23"
-      }
-    ]
-  },
-  {
-    "id": 28,
-    "firstName": "Dorota",
-    "lastName": "Stefankiewicz",
-    "role": "UI/UX Designer",
-    "email": "arkadiusz54@gmail.com",
-    "phone": "+48 660 766 898",
-    "photo": "https://randomuser.me/api/portraits/women/14.jpg",
-    "hireDate": "2017-05-13",
-    "employmentHistory": [
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-170",
-        "startDate": "2016-06-26",
-        "endDate": "2025-05-29"
-      }
-    ]
-  },
-  {
-    "id": 29,
-    "firstName": "Łukasz",
-    "lastName": "Pyszka",
-    "role": "QA Engineer",
-    "email": "daniel72@grupa.pl",
-    "phone": "668 085 651",
-    "photo": "https://randomuser.me/api/portraits/men/75.jpg",
-    "hireDate": "2011-07-04",
-    "employmentHistory": [
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-861",
-        "startDate": "2016-01-06",
-        "endDate": "2017-08-10"
-      },
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-852",
-        "startDate": "2018-07-02",
-        "endDate": "2022-11-16"
-      },
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-429",
-        "startDate": "2019-09-01",
-        "endDate": "2023-07-25"
-      }
-    ]
-  },
-  {
-    "id": 30,
-    "firstName": "Ryszard",
-    "lastName": "Obuchowicz",
-    "role": "Project Manager",
-    "email": "justyna41@gmail.com",
-    "phone": "606 964 006",
-    "photo": "https://randomuser.me/api/portraits/women/65.jpg",
-    "hireDate": "2021-12-11",
-    "employmentHistory": [
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-555",
-        "startDate": "2017-11-11",
-        "endDate": "2017-12-01"
-      },
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-478",
-        "startDate": "2019-10-04",
-        "endDate": "2022-04-14"
-      },
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-353",
-        "startDate": "2018-06-17",
-        "endDate": "2019-08-24"
-      }
-    ]
-  },
-  {
-    "id": 31,
-    "firstName": "Artur",
-    "lastName": "Mosur",
-    "role": "DevOps Engineer",
-    "email": "bkosiak@galos-kapcia.pl",
-    "phone": "603 490 483",
-    "photo": "https://randomuser.me/api/portraits/men/28.jpg",
-    "hireDate": "2010-11-21",
-    "employmentHistory": [
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-731",
-        "startDate": "2021-03-06",
-        "endDate": "2021-05-13"
-      }
-    ]
-  },
-  {
-    "id": 32,
-    "firstName": "Maciej",
-    "lastName": "Andrukiewicz",
-    "role": "UI/UX Designer",
-    "email": "przemyslawprazuch@fpuh.com",
-    "phone": "880 596 490",
-    "photo": "https://randomuser.me/api/portraits/men/72.jpg",
-    "hireDate": "2023-08-14",
-    "employmentHistory": [
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-684",
-        "startDate": "2021-11-29",
-        "endDate": "2024-07-09"
-      },
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-943",
-        "startDate": "2021-10-06",
-        "endDate": "2023-12-21"
-      },
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-969",
-        "startDate": "2023-06-02",
-        "endDate": "2025-07-08"
-      }
-    ]
-  },
-  {
-    "id": 33,
-    "firstName": "Mieszko",
-    "lastName": "Prasek",
-    "role": "Fullstack Developer",
-    "email": "sajewiczfryderyk@fundacja.org",
-    "phone": "507 081 222",
-    "photo": "https://randomuser.me/api/portraits/men/28.jpg",
-    "hireDate": "2016-05-22",
-    "employmentHistory": [
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-384",
-        "startDate": "2018-11-09",
-        "endDate": "2025-06-08"
-      },
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-115",
-        "startDate": "2018-11-03",
-        "endDate": "2023-06-04"
-      },
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-434",
-        "startDate": "2017-05-09",
-        "endDate": "2023-08-02"
-      }
-    ]
-  },
-  {
-    "id": 34,
-    "firstName": "Justyna",
-    "lastName": "Ślęczka",
-    "role": "DevOps Engineer",
-    "email": "krauzajeremi@cichos-cierpisz.com",
-    "phone": "32 092 65 49",
-    "photo": "https://randomuser.me/api/portraits/men/77.jpg",
-    "hireDate": "2016-05-13",
-    "employmentHistory": [
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-960",
-        "startDate": "2017-10-15",
-        "endDate": "2017-12-03"
-      },
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-865",
-        "startDate": "2020-05-30",
-        "endDate": "2022-08-07"
-      }
-    ]
-  },
-  {
-    "id": 35,
-    "firstName": "Janina",
-    "lastName": "Witkowicz",
-    "role": "QA Engineer",
-    "email": "lidiaturon@yahoo.com",
-    "phone": "607 519 925",
-    "photo": "https://randomuser.me/api/portraits/women/41.jpg",
-    "hireDate": "2017-08-28",
-    "employmentHistory": [
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-180",
-        "startDate": "2022-07-24",
-        "endDate": "2025-06-10"
-      },
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-670",
-        "startDate": "2019-07-19",
-        "endDate": "2021-12-09"
-      }
-    ]
-  },
-  {
-    "id": 36,
-    "firstName": "Stanisław",
-    "lastName": "Feliksiak",
-    "role": "Project Manager",
-    "email": "alekschomiuk@gabinety.pl",
-    "phone": "+48 32 210 75 32",
-    "photo": "https://randomuser.me/api/portraits/men/38.jpg",
-    "hireDate": "2020-10-03",
-    "employmentHistory": [
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-269",
-        "startDate": "2021-04-03",
-        "endDate": "2022-12-11"
-      },
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-215",
-        "startDate": "2021-08-12",
-        "endDate": "2022-06-23"
-      },
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-719",
-        "startDate": "2018-03-19",
-        "endDate": "2019-07-01"
-      }
-    ]
-  },
-  {
-    "id": 37,
-    "firstName": "Marek",
-    "lastName": "Spadło",
-    "role": "DevOps Engineer",
-    "email": "vkurp@grupa.com",
-    "phone": "604 318 356",
-    "photo": "https://randomuser.me/api/portraits/men/3.jpg",
-    "hireDate": "2018-02-15",
-    "employmentHistory": [
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-749",
-        "startDate": "2021-11-27",
-        "endDate": "2021-12-10"
-      },
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-222",
-        "startDate": "2017-05-18",
-        "endDate": "2022-05-04"
-      },
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-659",
-        "startDate": "2018-07-09",
-        "endDate": "2019-06-29"
-      }
-    ]
-  },
-  {
-    "id": 38,
-    "firstName": "Kalina",
-    "lastName": "Janiuk",
-    "role": "UI/UX Designer",
-    "email": "dsuchojad@interia.pl",
-    "phone": "+48 531 128 921",
-    "photo": "https://randomuser.me/api/portraits/men/71.jpg",
-    "hireDate": "2017-10-24",
-    "employmentHistory": [
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-496",
-        "startDate": "2019-10-08",
-        "endDate": "2023-03-13"
-      }
-    ]
-  },
-  {
-    "id": 39,
-    "firstName": "Gabriel",
-    "lastName": "Herok",
-    "role": "Fullstack Developer",
-    "email": "gortatpawel@yahoo.com",
-    "phone": "+48 788 420 949",
-    "photo": "https://randomuser.me/api/portraits/men/39.jpg",
-    "hireDate": "2010-11-24",
-    "employmentHistory": [
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-434",
-        "startDate": "2023-06-26",
-        "endDate": "2024-08-02"
-      },
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-557",
-        "startDate": "2021-11-20",
-        "endDate": "2025-04-28"
-      },
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-495",
-        "startDate": "2022-08-18",
-        "endDate": "2023-10-17"
-      }
-    ]
-  },
-  {
-    "id": 40,
-    "firstName": "Andrzej",
-    "lastName": "Mydlak",
-    "role": "DevOps Engineer",
-    "email": "tola81@hotmail.com",
-    "phone": "+48 504 675 645",
-    "photo": "https://randomuser.me/api/portraits/men/16.jpg",
-    "hireDate": "2013-05-16",
-    "employmentHistory": [
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-274",
-        "startDate": "2015-12-15",
-        "endDate": "2016-02-06"
-      }
-    ]
-  },
-  {
-    "id": 41,
-    "firstName": "Aleksander",
-    "lastName": "Gramza",
-    "role": "Business Analyst",
-    "email": "rzacaada@koj.pl",
-    "phone": "+48 32 587 72 38",
-    "photo": "https://randomuser.me/api/portraits/women/11.jpg",
-    "hireDate": "2019-06-17",
-    "employmentHistory": [
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-759",
-        "startDate": "2020-06-29",
-        "endDate": "2024-07-21"
-      }
-    ]
-  },
-  {
-    "id": 42,
-    "firstName": "Igor",
-    "lastName": "Rode",
-    "role": "Business Analyst",
-    "email": "norbert41@ppuh.com",
-    "phone": "+48 514 163 219",
-    "photo": "https://randomuser.me/api/portraits/men/66.jpg",
-    "hireDate": "2016-04-08",
-    "employmentHistory": [
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-522",
-        "startDate": "2018-07-20",
-        "endDate": "2022-10-13"
-      },
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-402",
-        "startDate": "2021-01-01",
-        "endDate": "2025-04-10"
-      },
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-971",
-        "startDate": "2019-11-25",
-        "endDate": "2024-05-03"
-      }
-    ]
-  },
-  {
-    "id": 43,
-    "firstName": "Mikołaj",
-    "lastName": "Halama",
-    "role": "Backend Developer",
-    "email": "waraksainga@onet.pl",
-    "phone": "880 592 512",
-    "photo": "https://randomuser.me/api/portraits/men/16.jpg",
-    "hireDate": "2023-06-20",
-    "employmentHistory": [
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-852",
-        "startDate": "2019-10-09",
-        "endDate": "2022-03-25"
-      }
-    ]
-  },
-  {
-    "id": 44,
-    "firstName": "Alex",
-    "lastName": "Smorąg",
-    "role": "QA Engineer",
-    "email": "dariusz04@gmail.com",
-    "phone": "+48 517 774 752",
-    "photo": "https://randomuser.me/api/portraits/men/60.jpg",
-    "hireDate": "2013-05-19",
-    "employmentHistory": [
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-450",
-        "startDate": "2019-06-21",
-        "endDate": "2024-02-21"
-      },
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-687",
-        "startDate": "2019-09-10",
-        "endDate": "2023-04-14"
-      },
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-693",
-        "startDate": "2017-11-13",
-        "endDate": "2023-11-13"
-      }
-    ]
-  },
-  {
-    "id": 45,
-    "firstName": "Melania",
-    "lastName": "Siewiera",
-    "role": "Fullstack Developer",
-    "email": "sasiadekadam@freitag.org",
-    "phone": "793 455 579",
-    "photo": "https://randomuser.me/api/portraits/men/70.jpg",
-    "hireDate": "2019-06-22",
-    "employmentHistory": [
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-674",
-        "startDate": "2017-09-01",
-        "endDate": "2020-09-03"
-      },
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-866",
-        "startDate": "2020-08-06",
-        "endDate": "2021-08-25"
-      },
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-239",
-        "startDate": "2016-01-17",
-        "endDate": "2023-05-23"
-      }
-    ]
-  },
-  {
-    "id": 46,
-    "firstName": "Tobiasz",
-    "lastName": "Jakóbiak",
-    "role": "DevOps Engineer",
-    "email": "qdrost@goska.org",
-    "phone": "+48 731 884 159",
-    "photo": "https://randomuser.me/api/portraits/women/64.jpg",
-    "hireDate": "2012-08-27",
-    "employmentHistory": [
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-247",
-        "startDate": "2022-05-20",
-        "endDate": "2024-09-05"
-      }
-    ]
-  },
-  {
-    "id": 47,
-    "firstName": "Rozalia",
-    "lastName": "Niedbał",
-    "role": "UI/UX Designer",
-    "email": "wambrozik@onet.pl",
-    "phone": "+48 504 092 805",
-    "photo": "https://randomuser.me/api/portraits/men/11.jpg",
-    "hireDate": "2011-06-01",
-    "employmentHistory": [
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-242",
-        "startDate": "2018-10-06",
-        "endDate": "2018-10-15"
-      }
-    ]
-  },
-  {
-    "id": 48,
-    "firstName": "Kajetan",
-    "lastName": "Kolek",
-    "role": "Business Analyst",
-    "email": "ppawlonka@fundacja.org",
-    "phone": "+48 886 761 895",
-    "photo": "https://randomuser.me/api/portraits/men/45.jpg",
-    "hireDate": "2019-01-14",
-    "employmentHistory": [
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-917",
-        "startDate": "2015-12-01",
-        "endDate": "2020-11-06"
-      },
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-113",
-        "startDate": "2016-05-07",
-        "endDate": "2016-05-12"
-      }
-    ]
-  },
-  {
-    "id": 49,
-    "firstName": "Olgierd",
-    "lastName": "Prokurat",
-    "role": "Backend Developer",
-    "email": "pikewa@spoldzielnia.pl",
-    "phone": "+48 32 130 34 61",
-    "photo": "https://randomuser.me/api/portraits/men/75.jpg",
-    "hireDate": "2021-09-07",
-    "employmentHistory": [
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-695",
-        "startDate": "2023-03-22",
-        "endDate": "2024-11-12"
-      }
-    ]
-  },
-  {
-    "id": 50,
-    "firstName": "Stanisław",
-    "lastName": "Wardzała",
-    "role": "Frontend Developer",
-    "email": "elzbieta97@spoldzielnia.pl",
-    "phone": "+48 720 613 291",
-    "photo": "https://randomuser.me/api/portraits/women/71.jpg",
-    "hireDate": "2021-09-29",
-    "employmentHistory": [
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-313",
-        "startDate": "2018-10-04",
-        "endDate": "2019-07-26"
-      }
-    ]
-  },
-  {
-    "id": 51,
-    "firstName": "Aleks",
-    "lastName": "Trzcionka",
-    "role": "QA Engineer",
-    "email": "raznyjulianna@gmail.com",
-    "phone": "+48 662 221 106",
-    "photo": "https://randomuser.me/api/portraits/men/21.jpg",
-    "hireDate": "2015-05-26",
-    "employmentHistory": [
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-274",
-        "startDate": "2020-06-08",
-        "endDate": "2023-03-04"
-      },
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-163",
-        "startDate": "2019-10-16",
-        "endDate": "2022-05-31"
-      }
-    ]
-  },
-  {
-    "id": 52,
-    "firstName": "Justyna",
-    "lastName": "Łuc",
-    "role": "UI/UX Designer",
-    "email": "hubert78@hotmail.com",
-    "phone": "+48 788 070 882",
-    "photo": "https://randomuser.me/api/portraits/women/87.jpg",
-    "hireDate": "2021-09-07",
-    "employmentHistory": [
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-259",
-        "startDate": "2020-08-13",
-        "endDate": "2023-01-08"
-      }
-    ]
-  },
-  {
-    "id": 53,
-    "firstName": "Kornel",
-    "lastName": "Markiel",
-    "role": "Fullstack Developer",
-    "email": "eryk73@stowarzyszenie.pl",
-    "phone": "+48 608 572 249",
-    "photo": "https://randomuser.me/api/portraits/men/98.jpg",
-    "hireDate": "2017-08-31",
-    "employmentHistory": [
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-291",
-        "startDate": "2020-09-14",
-        "endDate": "2024-04-27"
-      },
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-479",
-        "startDate": "2015-11-24",
-        "endDate": "2017-05-01"
-      }
-    ]
-  },
-  {
-    "id": 54,
-    "firstName": "Marcel",
-    "lastName": "Żybura",
-    "role": "Frontend Developer",
-    "email": "janinasolis@gabinety.pl",
-    "phone": "888 230 859",
-    "photo": "https://randomuser.me/api/portraits/men/95.jpg",
-    "hireDate": "2013-12-29",
-    "employmentHistory": [
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-144",
-        "startDate": "2019-01-27",
-        "endDate": "2022-12-20"
-      }
-    ]
-  },
-  {
-    "id": 55,
-    "firstName": "Konstanty",
-    "lastName": "Kasznia",
-    "role": "Business Analyst",
-    "email": "ksawery90@grupa.pl",
-    "phone": "+48 888 555 542",
-    "photo": "https://randomuser.me/api/portraits/women/52.jpg",
-    "hireDate": "2019-04-17",
-    "employmentHistory": [
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-545",
-        "startDate": "2023-03-04",
-        "endDate": "2023-05-12"
-      },
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-781",
-        "startDate": "2022-05-08",
-        "endDate": "2022-11-08"
-      }
-    ]
-  },
-  {
-    "id": 56,
-    "firstName": "Karina",
-    "lastName": "Ochwat",
-    "role": "Fullstack Developer",
-    "email": "elzbieta00@fundacja.com",
-    "phone": "22 403 64 36",
-    "photo": "https://randomuser.me/api/portraits/men/89.jpg",
-    "hireDate": "2014-08-18",
-    "employmentHistory": [
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-117",
-        "startDate": "2023-05-07",
-        "endDate": "2024-09-11"
-      },
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-955",
-        "startDate": "2016-06-27",
-        "endDate": "2016-10-17"
-      }
-    ]
-  },
-  {
-    "id": 57,
-    "firstName": "Róża",
-    "lastName": "Fura",
-    "role": "Frontend Developer",
-    "email": "kaja27@interia.pl",
-    "phone": "793 262 879",
-    "photo": "https://randomuser.me/api/portraits/women/99.jpg",
-    "hireDate": "2020-05-28",
-    "employmentHistory": [
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-322",
-        "startDate": "2020-03-15",
-        "endDate": "2024-11-19"
-      }
-    ]
-  },
-  {
-    "id": 58,
-    "firstName": "Krystyna",
-    "lastName": "Behrendt",
-    "role": "Business Analyst",
-    "email": "kasicamarcel@onet.pl",
-    "phone": "784 207 422",
-    "photo": "https://randomuser.me/api/portraits/men/71.jpg",
-    "hireDate": "2011-06-25",
-    "employmentHistory": [
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-904",
-        "startDate": "2019-07-25",
-        "endDate": "2021-07-20"
-      },
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-815",
-        "startDate": "2022-12-11",
-        "endDate": "2023-05-11"
-      }
-    ]
-  },
-  {
-    "id": 59,
-    "firstName": "Apolonia",
-    "lastName": "Margol",
-    "role": "Frontend Developer",
-    "email": "sapetabianka@onet.pl",
-    "phone": "574 285 297",
-    "photo": "https://randomuser.me/api/portraits/women/75.jpg",
-    "hireDate": "2011-08-30",
-    "employmentHistory": [
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-250",
-        "startDate": "2021-07-28",
-        "endDate": "2021-08-16"
-      },
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-616",
-        "startDate": "2021-01-21",
-        "endDate": "2021-08-16"
-      }
-    ]
-  },
-  {
-    "id": 60,
-    "firstName": "Agnieszka",
-    "lastName": "Ostręga",
-    "role": "UI/UX Designer",
-    "email": "liwia46@herbut.com",
-    "phone": "+48 786 464 020",
-    "photo": "https://randomuser.me/api/portraits/women/91.jpg",
-    "hireDate": "2024-04-04",
-    "employmentHistory": [
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-827",
-        "startDate": "2015-12-31",
-        "endDate": "2024-04-02"
-      }
-    ]
-  },
-  {
-    "id": 61,
-    "firstName": "Oskar",
-    "lastName": "Dzidek",
-    "role": "QA Engineer",
-    "email": "labusmarika@onet.pl",
-    "phone": "737 855 941",
-    "photo": "https://randomuser.me/api/portraits/women/30.jpg",
-    "hireDate": "2019-05-28",
-    "employmentHistory": [
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-937",
-        "startDate": "2019-09-30",
-        "endDate": "2020-10-02"
-      },
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-279",
-        "startDate": "2015-10-25",
-        "endDate": "2020-07-11"
-      },
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-744",
-        "startDate": "2020-02-06",
-        "endDate": "2020-06-24"
-      }
-    ]
-  },
-  {
-    "id": 62,
-    "firstName": "Tymon",
-    "lastName": "Klisz",
-    "role": "QA Engineer",
-    "email": "xoskroba@hotmail.com",
-    "phone": "+48 578 535 472",
-    "photo": "https://randomuser.me/api/portraits/men/14.jpg",
-    "hireDate": "2020-02-05",
-    "employmentHistory": [
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-543",
-        "startDate": "2018-02-16",
-        "endDate": "2024-02-11"
-      },
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-892",
-        "startDate": "2021-03-18",
-        "endDate": "2025-01-23"
-      },
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-792",
-        "startDate": "2020-02-16",
-        "endDate": "2020-11-08"
-      }
-    ]
-  },
-  {
-    "id": 63,
-    "firstName": "Karol",
-    "lastName": "Poczta",
-    "role": "Backend Developer",
-    "email": "zszuta@spoldzielnia.net",
-    "phone": "+48 608 286 578",
-    "photo": "https://randomuser.me/api/portraits/women/99.jpg",
-    "hireDate": "2012-10-23",
-    "employmentHistory": [
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-203",
-        "startDate": "2019-10-19",
-        "endDate": "2023-08-31"
-      },
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-813",
-        "startDate": "2018-02-01",
-        "endDate": "2019-01-06"
-      },
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-382",
-        "startDate": "2019-03-03",
-        "endDate": "2023-12-29"
-      }
-    ]
-  },
-  {
-    "id": 64,
-    "firstName": "Sylwia",
-    "lastName": "Forma",
-    "role": "Frontend Developer",
-    "email": "myrchadaniel@spoldzielnia.com",
-    "phone": "889 925 392",
-    "photo": "https://randomuser.me/api/portraits/men/84.jpg",
-    "hireDate": "2020-11-04",
-    "employmentHistory": [
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-436",
-        "startDate": "2023-08-25",
-        "endDate": "2025-06-25"
-      },
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-650",
-        "startDate": "2021-06-10",
-        "endDate": "2025-03-10"
-      },
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-816",
-        "startDate": "2022-11-03",
-        "endDate": "2022-12-13"
-      }
-    ]
-  },
-  {
-    "id": 65,
-    "firstName": "Ida",
-    "lastName": "Bany",
-    "role": "DevOps Engineer",
-    "email": "jszarzec@o2.pl",
-    "phone": "789 341 362",
-    "photo": "https://randomuser.me/api/portraits/women/23.jpg",
-    "hireDate": "2019-06-20",
-    "employmentHistory": [
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-467",
-        "startDate": "2015-09-25",
-        "endDate": "2021-05-28"
-      }
-    ]
-  },
-  {
-    "id": 66,
-    "firstName": "Gustaw",
-    "lastName": "Wiech",
-    "role": "DevOps Engineer",
-    "email": "anastazja37@yahoo.com",
-    "phone": "32 724 36 96",
-    "photo": "https://randomuser.me/api/portraits/women/62.jpg",
-    "hireDate": "2014-11-02",
-    "employmentHistory": [
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-253",
-        "startDate": "2022-09-01",
-        "endDate": "2023-11-27"
-      },
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-961",
-        "startDate": "2021-03-30",
-        "endDate": "2021-06-15"
-      },
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-416",
-        "startDate": "2023-01-08",
-        "endDate": "2024-10-01"
-      }
-    ]
-  },
-  {
-    "id": 67,
-    "firstName": "Łukasz",
-    "lastName": "Duczek",
-    "role": "Fullstack Developer",
-    "email": "oufniarz@gmail.com",
-    "phone": "+48 605 785 403",
-    "photo": "https://randomuser.me/api/portraits/men/26.jpg",
-    "hireDate": "2019-03-18",
-    "employmentHistory": [
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-603",
-        "startDate": "2022-07-22",
-        "endDate": "2023-05-26"
-      },
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-841",
-        "startDate": "2018-11-07",
-        "endDate": "2022-12-02"
-      },
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-883",
-        "startDate": "2016-06-21",
-        "endDate": "2024-03-14"
-      }
-    ]
-  },
-  {
-    "id": 68,
-    "firstName": "Rafał",
-    "lastName": "Iwanow",
-    "role": "Frontend Developer",
-    "email": "usulik@stowarzyszenie.com",
-    "phone": "668 279 614",
-    "photo": "https://randomuser.me/api/portraits/men/60.jpg",
-    "hireDate": "2022-09-15",
-    "employmentHistory": [
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-202",
-        "startDate": "2017-02-27",
-        "endDate": "2020-12-13"
-      },
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-849",
-        "startDate": "2021-01-28",
-        "endDate": "2022-12-25"
-      }
-    ]
-  },
-  {
-    "id": 69,
-    "firstName": "Marcin",
-    "lastName": "Tomalik",
-    "role": "UI/UX Designer",
-    "email": "pszczolkaaurelia@ppuh.pl",
-    "phone": "+48 22 919 50 20",
-    "photo": "https://randomuser.me/api/portraits/men/36.jpg",
-    "hireDate": "2024-04-03",
-    "employmentHistory": [
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-481",
-        "startDate": "2022-09-21",
-        "endDate": "2023-10-21"
-      }
-    ]
-  },
-  {
-    "id": 70,
-    "firstName": "Maciej",
-    "lastName": "Smalec",
-    "role": "Business Analyst",
-    "email": "jeremi49@gabinety.com",
-    "phone": "726 918 717",
-    "photo": "https://randomuser.me/api/portraits/women/81.jpg",
-    "hireDate": "2020-03-23",
-    "employmentHistory": [
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-978",
-        "startDate": "2022-01-11",
-        "endDate": "2022-12-22"
-      }
-    ]
-  },
-  {
-    "id": 71,
-    "firstName": "Sylwia",
-    "lastName": "Breguła",
-    "role": "QA Engineer",
-    "email": "kuboncyprian@grupa.pl",
-    "phone": "+48 22 535 28 75",
-    "photo": "https://randomuser.me/api/portraits/men/84.jpg",
-    "hireDate": "2020-06-25",
-    "employmentHistory": [
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-239",
-        "startDate": "2018-02-01",
-        "endDate": "2025-01-02"
-      },
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-850",
-        "startDate": "2016-12-08",
-        "endDate": "2024-12-12"
-      },
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-603",
-        "startDate": "2020-08-31",
-        "endDate": "2021-01-12"
-      }
-    ]
-  },
-  {
-    "id": 72,
-    "firstName": "Justyna",
-    "lastName": "Katana",
-    "role": "QA Engineer",
-    "email": "sylwia96@fundacja.com",
-    "phone": "735 180 805",
-    "photo": "https://randomuser.me/api/portraits/women/39.jpg",
-    "hireDate": "2017-01-03",
-    "employmentHistory": [
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-313",
-        "startDate": "2022-12-26",
-        "endDate": "2024-01-21"
-      },
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-110",
-        "startDate": "2015-12-21",
-        "endDate": "2019-07-25"
-      },
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-571",
-        "startDate": "2021-02-07",
-        "endDate": "2022-08-06"
-      }
-    ]
-  },
-  {
-    "id": 73,
-    "firstName": "Filip",
-    "lastName": "Wochnik",
-    "role": "Frontend Developer",
-    "email": "fiedorczukkornel@grupa.pl",
-    "phone": "735 716 794",
-    "photo": "https://randomuser.me/api/portraits/women/56.jpg",
-    "hireDate": "2013-07-09",
-    "employmentHistory": [
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-493",
-        "startDate": "2022-08-06",
-        "endDate": "2022-08-20"
-      }
-    ]
-  },
-  {
-    "id": 74,
-    "firstName": "Jeremi",
-    "lastName": "Kołaczek",
-    "role": "Backend Developer",
-    "email": "tolacebo@interia.pl",
-    "phone": "510 880 037",
-    "photo": "https://randomuser.me/api/portraits/women/44.jpg",
-    "hireDate": "2013-07-22",
-    "employmentHistory": [
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-140",
-        "startDate": "2020-12-09",
-        "endDate": "2023-02-17"
-      },
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-651",
-        "startDate": "2017-06-07",
-        "endDate": "2022-06-10"
-      },
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-874",
-        "startDate": "2022-10-28",
-        "endDate": "2025-03-06"
-      }
-    ]
-  },
-  {
-    "id": 75,
-    "firstName": "Ada",
-    "lastName": "Bielas",
-    "role": "Fullstack Developer",
-    "email": "fiutakdorota@interia.pl",
-    "phone": "535 863 012",
-    "photo": "https://randomuser.me/api/portraits/women/9.jpg",
-    "hireDate": "2019-01-16",
-    "employmentHistory": [
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-356",
-        "startDate": "2021-11-30",
-        "endDate": "2025-01-19"
-      },
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-823",
-        "startDate": "2021-11-19",
-        "endDate": "2024-06-20"
-      }
-    ]
-  },
-  {
-    "id": 76,
-    "firstName": "Rozalia",
-    "lastName": "Rybus",
-    "role": "DevOps Engineer",
-    "email": "adriankasiak@hotmail.com",
-    "phone": "+48 512 883 438",
-    "photo": "https://randomuser.me/api/portraits/men/44.jpg",
-    "hireDate": "2011-07-25",
-    "employmentHistory": [
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-720",
-        "startDate": "2022-09-12",
-        "endDate": "2024-01-02"
-      },
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-823",
-        "startDate": "2023-07-10",
-        "endDate": "2025-03-28"
-      },
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-311",
-        "startDate": "2016-05-25",
-        "endDate": "2022-09-30"
-      }
-    ]
-  },
-  {
-    "id": 77,
-    "firstName": "Ewa",
-    "lastName": "Starzak",
-    "role": "Backend Developer",
-    "email": "norbert44@stowarzyszenie.pl",
-    "phone": "+48 727 569 039",
-    "photo": "https://randomuser.me/api/portraits/men/49.jpg",
-    "hireDate": "2018-01-06",
-    "employmentHistory": [
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-484",
-        "startDate": "2018-08-04",
-        "endDate": "2021-05-25"
-      },
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-404",
-        "startDate": "2017-09-10",
-        "endDate": "2018-07-19"
-      }
-    ]
-  },
-  {
-    "id": 78,
-    "firstName": "Angelika",
-    "lastName": "Sidorczuk",
-    "role": "Backend Developer",
-    "email": "stefanslebioda@spoldzielnia.pl",
-    "phone": "739 728 408",
-    "photo": "https://randomuser.me/api/portraits/men/60.jpg",
-    "hireDate": "2021-02-10",
-    "employmentHistory": [
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-897",
-        "startDate": "2015-09-05",
-        "endDate": "2020-10-17"
-      }
-    ]
-  },
-  {
-    "id": 79,
-    "firstName": "Tobiasz",
-    "lastName": "Szlęk",
-    "role": "Frontend Developer",
-    "email": "adriantylka@weremczuk-szlufik.net",
-    "phone": "+48 669 986 546",
-    "photo": "https://randomuser.me/api/portraits/men/99.jpg",
-    "hireDate": "2018-03-06",
-    "employmentHistory": [
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-322",
-        "startDate": "2019-06-24",
-        "endDate": "2020-12-24"
-      }
-    ]
-  },
-  {
-    "id": 80,
-    "firstName": "Nicole",
-    "lastName": "Korzonek",
-    "role": "Project Manager",
-    "email": "rybuskarina@interia.pl",
-    "phone": "+48 519 528 008",
-    "photo": "https://randomuser.me/api/portraits/women/70.jpg",
-    "hireDate": "2018-06-10",
-    "employmentHistory": [
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-535",
-        "startDate": "2021-11-29",
-        "endDate": "2025-01-09"
-      }
-    ]
-  },
-  {
-    "id": 81,
-    "firstName": "Alex",
-    "lastName": "Dziadura",
-    "role": "Business Analyst",
-    "email": "szelestignacy@interia.pl",
-    "phone": "785 965 702",
-    "photo": "https://randomuser.me/api/portraits/women/22.jpg",
-    "hireDate": "2013-05-03",
-    "employmentHistory": [
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-965",
-        "startDate": "2020-07-05",
-        "endDate": "2020-11-02"
-      }
-    ]
-  },
-  {
-    "id": 82,
-    "firstName": "Ida",
-    "lastName": "Pazdan",
-    "role": "Backend Developer",
-    "email": "arendarczyktymon@gagala.com",
-    "phone": "+48 720 851 712",
-    "photo": "https://randomuser.me/api/portraits/men/74.jpg",
-    "hireDate": "2015-06-08",
-    "employmentHistory": [
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-805",
-        "startDate": "2019-03-09",
-        "endDate": "2024-11-22"
-      },
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-985",
-        "startDate": "2018-04-04",
-        "endDate": "2023-03-02"
-      }
-    ]
-  },
-  {
-    "id": 83,
-    "firstName": "Alan",
-    "lastName": "Białach",
-    "role": "Business Analyst",
-    "email": "wlazlakradoslaw@fundacja.com",
-    "phone": "727 631 465",
-    "photo": "https://randomuser.me/api/portraits/women/21.jpg",
-    "hireDate": "2015-03-22",
-    "employmentHistory": [
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-835",
-        "startDate": "2018-04-19",
-        "endDate": "2019-12-30"
-      },
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-263",
-        "startDate": "2022-11-15",
-        "endDate": "2023-09-20"
-      }
-    ]
-  },
-  {
-    "id": 84,
-    "firstName": "Marcelina",
-    "lastName": "Budych",
-    "role": "Frontend Developer",
-    "email": "szaranikodem@grupa.org",
-    "phone": "32 942 79 80",
-    "photo": "https://randomuser.me/api/portraits/women/21.jpg",
-    "hireDate": "2013-05-22",
-    "employmentHistory": [
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-109",
-        "startDate": "2017-01-04",
-        "endDate": "2025-03-08"
-      },
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-544",
-        "startDate": "2016-10-27",
-        "endDate": "2017-03-19"
-      }
-    ]
-  },
-  {
-    "id": 85,
-    "firstName": "Arkadiusz",
-    "lastName": "Wośko",
-    "role": "Project Manager",
-    "email": "marcinmikus@onet.pl",
-    "phone": "510 679 999",
-    "photo": "https://randomuser.me/api/portraits/women/49.jpg",
-    "hireDate": "2015-05-16",
-    "employmentHistory": [
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-640",
-        "startDate": "2015-09-16",
-        "endDate": "2016-08-09"
-      },
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-840",
-        "startDate": "2019-01-28",
-        "endDate": "2021-12-13"
-      }
-    ]
-  },
-  {
-    "id": 86,
-    "firstName": "Stanisław",
-    "lastName": "Ślęczka",
-    "role": "Frontend Developer",
-    "email": "wfras@gajownik.com",
-    "phone": "512 751 358",
-    "photo": "https://randomuser.me/api/portraits/women/77.jpg",
-    "hireDate": "2011-08-05",
-    "employmentHistory": [
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-459",
-        "startDate": "2015-09-06",
-        "endDate": "2024-02-09"
-      },
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-211",
-        "startDate": "2018-10-02",
-        "endDate": "2022-07-27"
-      },
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-846",
-        "startDate": "2022-07-15",
-        "endDate": "2025-07-04"
-      }
-    ]
-  },
-  {
-    "id": 87,
-    "firstName": "Tymon",
-    "lastName": "Dawidek",
-    "role": "Frontend Developer",
-    "email": "fburzawa@fundacja.pl",
-    "phone": "720 917 224",
-    "photo": "https://randomuser.me/api/portraits/women/45.jpg",
-    "hireDate": "2018-08-14",
-    "employmentHistory": [
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-413",
-        "startDate": "2017-11-29",
-        "endDate": "2019-03-05"
-      }
-    ]
-  },
-  {
-    "id": 88,
-    "firstName": "Przemysław",
-    "lastName": "Warmuz",
-    "role": "UI/UX Designer",
-    "email": "patrykklinkosz@tarach-bielat.com",
-    "phone": "+48 503 819 006",
-    "photo": "https://randomuser.me/api/portraits/women/22.jpg",
-    "hireDate": "2023-11-01",
-    "employmentHistory": [
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-677",
-        "startDate": "2018-10-13",
-        "endDate": "2020-06-19"
-      }
-    ]
-  },
-  {
-    "id": 89,
-    "firstName": "Jacek",
-    "lastName": "Halama",
-    "role": "Backend Developer",
-    "email": "wiktorwawrzynczyk@naczk.pl",
-    "phone": "+48 518 912 571",
-    "photo": "https://randomuser.me/api/portraits/men/93.jpg",
-    "hireDate": "2021-06-13",
-    "employmentHistory": [
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-695",
-        "startDate": "2016-11-22",
-        "endDate": "2017-10-16"
-      }
-    ]
-  },
-  {
-    "id": 90,
-    "firstName": "Adam",
-    "lastName": "Szyma",
-    "role": "Backend Developer",
-    "email": "azieciak@stowarzyszenie.com",
-    "phone": "+48 32 007 30 15",
-    "photo": "https://randomuser.me/api/portraits/men/75.jpg",
-    "hireDate": "2024-08-14",
-    "employmentHistory": [
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-976",
-        "startDate": "2017-12-04",
-        "endDate": "2025-07-30"
-      },
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-483",
-        "startDate": "2021-12-16",
-        "endDate": "2023-09-16"
-      },
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-605",
-        "startDate": "2019-01-20",
-        "endDate": "2021-01-08"
-      }
-    ]
-  },
-  {
-    "id": 91,
-    "firstName": "Leonard",
-    "lastName": "Stawinoga",
-    "role": "Business Analyst",
-    "email": "jozefblock@fundacja.com",
-    "phone": "+48 795 647 789",
-    "photo": "https://randomuser.me/api/portraits/women/85.jpg",
-    "hireDate": "2012-02-01",
-    "employmentHistory": [
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-451",
-        "startDate": "2020-09-05",
-        "endDate": "2024-06-19"
-      },
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-510",
-        "startDate": "2019-05-31",
-        "endDate": "2025-07-05"
-      },
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-956",
-        "startDate": "2021-04-08",
-        "endDate": "2023-09-16"
-      }
-    ]
-  },
-  {
-    "id": 92,
-    "firstName": "Hubert",
-    "lastName": "Celuch",
-    "role": "QA Engineer",
-    "email": "szczepaniukrafal@o2.pl",
-    "phone": "608 222 835",
-    "photo": "https://randomuser.me/api/portraits/men/99.jpg",
-    "hireDate": "2024-03-28",
-    "employmentHistory": [
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-794",
-        "startDate": "2019-05-26",
-        "endDate": "2019-08-27"
-      },
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-197",
-        "startDate": "2021-11-23",
-        "endDate": "2024-03-07"
-      }
-    ]
-  },
-  {
-    "id": 93,
-    "firstName": "Aniela",
-    "lastName": "Galica",
-    "role": "Business Analyst",
-    "email": "kalinaandrys@fundacja.org",
-    "phone": "667 924 153",
-    "photo": "https://randomuser.me/api/portraits/men/15.jpg",
-    "hireDate": "2019-08-14",
-    "employmentHistory": [
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-530",
-        "startDate": "2019-02-27",
-        "endDate": "2020-09-22"
-      },
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-803",
-        "startDate": "2021-04-13",
-        "endDate": "2021-11-15"
-      }
-    ]
-  },
-  {
-    "id": 94,
-    "firstName": "Monika",
-    "lastName": "Babij",
-    "role": "UI/UX Designer",
-    "email": "wmiechowicz@borysewicz-kamieniarz.com",
-    "phone": "605 792 730",
-    "photo": "https://randomuser.me/api/portraits/women/44.jpg",
-    "hireDate": "2020-05-12",
-    "employmentHistory": [
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-744",
-        "startDate": "2023-01-16",
-        "endDate": "2023-02-28"
-      },
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-168",
-        "startDate": "2020-10-25",
-        "endDate": "2022-10-29"
-      }
-    ]
-  },
-  {
-    "id": 95,
-    "firstName": "Sebastian",
-    "lastName": "Pasztaleniec",
-    "role": "UI/UX Designer",
-    "email": "olga04@wabik-kryza.net",
-    "phone": "32 576 91 92",
-    "photo": "https://randomuser.me/api/portraits/women/63.jpg",
-    "hireDate": "2022-09-29",
-    "employmentHistory": [
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-677",
-        "startDate": "2018-05-16",
-        "endDate": "2022-06-18"
-      },
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-241",
-        "startDate": "2016-12-26",
-        "endDate": "2019-05-22"
-      },
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-249",
-        "startDate": "2021-01-09",
-        "endDate": "2022-12-03"
-      }
-    ]
-  },
-  {
-    "id": 96,
-    "firstName": "Michał",
-    "lastName": "Pindor",
-    "role": "Frontend Developer",
-    "email": "ochnioaleksander@grupa.pl",
-    "phone": "880 470 509",
-    "photo": "https://randomuser.me/api/portraits/women/42.jpg",
-    "hireDate": "2011-07-05",
-    "employmentHistory": [
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-820",
-        "startDate": "2022-02-03",
-        "endDate": "2023-12-29"
-      },
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-410",
-        "startDate": "2020-12-24",
-        "endDate": "2021-09-02"
-      }
-    ]
-  },
-  {
-    "id": 97,
-    "firstName": "Stanisław",
-    "lastName": "Godzik",
-    "role": "Business Analyst",
-    "email": "nhusak@majczyna.net",
-    "phone": "575 561 953",
-    "photo": "https://randomuser.me/api/portraits/men/41.jpg",
-    "hireDate": "2024-01-14",
-    "employmentHistory": [
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-859",
-        "startDate": "2021-08-30",
-        "endDate": "2022-07-09"
-      },
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-445",
-        "startDate": "2020-11-21",
-        "endDate": "2022-02-09"
-      },
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-340",
-        "startDate": "2019-04-19",
-        "endDate": "2023-01-28"
-      }
-    ]
-  },
-  {
-    "id": 98,
-    "firstName": "Leon",
-    "lastName": "Ochwat",
-    "role": "Project Manager",
-    "email": "litwinowiczrozalia@spoldzielnia.pl",
-    "phone": "+48 511 850 452",
-    "photo": "https://randomuser.me/api/portraits/women/24.jpg",
-    "hireDate": "2023-06-07",
-    "employmentHistory": [
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-183",
-        "startDate": "2023-05-25",
-        "endDate": "2024-10-09"
-      }
-    ]
-  },
-  {
-    "id": 99,
-    "firstName": "Kaja",
-    "lastName": "Panicz",
-    "role": "Project Manager",
-    "email": "gkurant@gabinety.net",
-    "phone": "570 984 873",
-    "photo": "https://randomuser.me/api/portraits/men/16.jpg",
-    "hireDate": "2016-08-27",
-    "employmentHistory": [
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-961",
-        "startDate": "2021-06-19",
-        "endDate": "2023-03-04"
-      }
-    ]
-  },
-  {
-    "id": 100,
-    "firstName": "Alan",
-    "lastName": "Zegar",
-    "role": "QA Engineer",
-    "email": "arturmaron@pieczarka-pacewicz.com",
-    "phone": "510 964 136",
-    "photo": "https://randomuser.me/api/portraits/men/14.jpg",
-    "hireDate": "2016-10-08",
-    "employmentHistory": [
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-297",
-        "startDate": "2019-12-03",
-        "endDate": "2020-09-07"
-      },
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-668",
-        "startDate": "2017-03-06",
-        "endDate": "2021-10-11"
-      }
-    ]
-  },
-  {
-    "id": 101,
-    "firstName": "Kazimierz",
-    "lastName": "Czochara",
-    "role": "DevOps Engineer",
-    "email": "tpachnik@fundacja.org",
-    "phone": "+48 22 862 45 81",
-    "photo": "https://randomuser.me/api/portraits/women/93.jpg",
-    "hireDate": "2021-10-31",
-    "employmentHistory": [
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-489",
-        "startDate": "2017-02-22",
-        "endDate": "2018-09-07"
-      }
-    ]
-  },
-  {
-    "id": 102,
-    "firstName": "Nikodem",
-    "lastName": "Gołoś",
-    "role": "QA Engineer",
-    "email": "goliszleon@interia.pl",
-    "phone": "576 277 121",
-    "photo": "https://randomuser.me/api/portraits/men/66.jpg",
-    "hireDate": "2012-10-05",
-    "employmentHistory": [
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-928",
-        "startDate": "2018-01-18",
-        "endDate": "2021-11-11"
-      },
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-555",
-        "startDate": "2016-12-22",
-        "endDate": "2017-01-02"
-      }
-    ]
-  },
-  {
-    "id": 103,
-    "firstName": "Leon",
-    "lastName": "Gogol",
-    "role": "Fullstack Developer",
-    "email": "wmaciuszek@onet.pl",
-    "phone": "532 025 547",
-    "photo": "https://randomuser.me/api/portraits/women/61.jpg",
-    "hireDate": "2023-01-06",
-    "employmentHistory": [
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-611",
-        "startDate": "2020-05-17",
-        "endDate": "2020-08-19"
-      },
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-400",
-        "startDate": "2022-07-18",
-        "endDate": "2023-12-30"
-      },
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-516",
-        "startDate": "2022-05-21",
-        "endDate": "2024-11-24"
-      }
-    ]
-  },
-  {
-    "id": 104,
-    "firstName": "Jan",
-    "lastName": "Grądziel",
-    "role": "Fullstack Developer",
-    "email": "pkuban@ppuh.org",
-    "phone": "732 384 033",
-    "photo": "https://randomuser.me/api/portraits/men/46.jpg",
-    "hireDate": "2021-06-12",
-    "employmentHistory": [
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-946",
-        "startDate": "2017-09-17",
-        "endDate": "2019-09-20"
-      },
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-723",
-        "startDate": "2020-05-04",
-        "endDate": "2021-04-19"
-      },
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-804",
-        "startDate": "2015-10-24",
-        "endDate": "2019-02-17"
-      }
-    ]
-  },
-  {
-    "id": 105,
-    "firstName": "Olaf",
-    "lastName": "Hermann",
-    "role": "Backend Developer",
-    "email": "kucielsandra@capala.net",
-    "phone": "22 502 34 66",
-    "photo": "https://randomuser.me/api/portraits/men/7.jpg",
-    "hireDate": "2012-06-13",
-    "employmentHistory": [
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-527",
-        "startDate": "2019-05-24",
-        "endDate": "2021-04-13"
-      }
-    ]
-  },
-  {
-    "id": 106,
-    "firstName": "Adrian",
-    "lastName": "Ryguła",
-    "role": "DevOps Engineer",
-    "email": "juliansupel@gmail.com",
-    "phone": "573 216 442",
-    "photo": "https://randomuser.me/api/portraits/men/11.jpg",
-    "hireDate": "2010-10-09",
-    "employmentHistory": [
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-215",
-        "startDate": "2018-07-22",
-        "endDate": "2020-05-13"
-      }
-    ]
-  },
-  {
-    "id": 107,
-    "firstName": "Wojciech",
-    "lastName": "Chwała",
-    "role": "Project Manager",
-    "email": "lidiakomander@frankow-siemek.net",
-    "phone": "502 061 075",
-    "photo": "https://randomuser.me/api/portraits/women/37.jpg",
-    "hireDate": "2012-01-15",
-    "employmentHistory": [
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-272",
-        "startDate": "2020-06-13",
-        "endDate": "2025-06-07"
-      }
-    ]
-  },
-  {
-    "id": 108,
-    "firstName": "Sara",
-    "lastName": "Niećko",
-    "role": "DevOps Engineer",
-    "email": "dabkiewiczlukasz@hotmail.com",
-    "phone": "+48 888 832 293",
-    "photo": "https://randomuser.me/api/portraits/men/61.jpg",
-    "hireDate": "2020-06-16",
-    "employmentHistory": [
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-382",
-        "startDate": "2022-04-26",
-        "endDate": "2024-02-04"
-      }
-    ]
-  },
-  {
-    "id": 109,
-    "firstName": "Marcin",
-    "lastName": "Cyman",
-    "role": "QA Engineer",
-    "email": "olga26@interia.pl",
-    "phone": "+48 577 370 844",
-    "photo": "https://randomuser.me/api/portraits/women/15.jpg",
-    "hireDate": "2011-11-26",
-    "employmentHistory": [
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-167",
-        "startDate": "2020-11-01",
-        "endDate": "2023-04-07"
-      }
-    ]
-  },
-  {
-    "id": 110,
-    "firstName": "Bruno",
-    "lastName": "Mazepa",
-    "role": "DevOps Engineer",
-    "email": "kornelclapa@yahoo.com",
-    "phone": "+48 532 510 539",
-    "photo": "https://randomuser.me/api/portraits/men/11.jpg",
-    "hireDate": "2011-12-17",
-    "employmentHistory": [
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-273",
-        "startDate": "2017-07-03",
-        "endDate": "2024-06-26"
-      },
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-991",
-        "startDate": "2016-10-26",
-        "endDate": "2017-07-20"
-      },
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-177",
-        "startDate": "2023-05-20",
-        "endDate": "2025-05-08"
-      }
-    ]
-  },
-  {
-    "id": 111,
-    "firstName": "Jeremi",
-    "lastName": "Machniak",
-    "role": "Fullstack Developer",
-    "email": "ezbiciak@hotmail.com",
-    "phone": "+48 888 259 047",
-    "photo": "https://randomuser.me/api/portraits/women/93.jpg",
-    "hireDate": "2011-05-02",
-    "employmentHistory": [
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-858",
-        "startDate": "2016-08-25",
-        "endDate": "2021-11-04"
-      },
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-205",
-        "startDate": "2020-10-27",
-        "endDate": "2025-05-10"
-      }
-    ]
-  },
-  {
-    "id": 112,
-    "firstName": "Apolonia",
-    "lastName": "Miotke",
-    "role": "DevOps Engineer",
-    "email": "leonardpindor@onet.pl",
-    "phone": "+48 663 863 971",
-    "photo": "https://randomuser.me/api/portraits/men/45.jpg",
-    "hireDate": "2022-08-25",
-    "employmentHistory": [
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-419",
-        "startDate": "2018-03-26",
-        "endDate": "2023-01-18"
-      },
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-604",
-        "startDate": "2017-08-18",
-        "endDate": "2018-07-31"
-      },
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-591",
-        "startDate": "2019-11-22",
-        "endDate": "2020-04-21"
-      }
-    ]
-  },
-  {
-    "id": 113,
-    "firstName": "Tadeusz",
-    "lastName": "Langier",
-    "role": "Backend Developer",
-    "email": "jacek20@yahoo.com",
-    "phone": "+48 501 906 803",
-    "photo": "https://randomuser.me/api/portraits/men/8.jpg",
-    "hireDate": "2024-04-24",
-    "employmentHistory": [
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-643",
-        "startDate": "2019-03-20",
-        "endDate": "2022-09-26"
-      },
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-926",
-        "startDate": "2018-05-31",
-        "endDate": "2018-06-22"
-      },
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-757",
-        "startDate": "2015-11-06",
-        "endDate": "2023-10-09"
-      }
-    ]
-  },
-  {
-    "id": 114,
-    "firstName": "Łukasz",
-    "lastName": "Sugier",
-    "role": "Frontend Developer",
-    "email": "anna-maria07@gmail.com",
-    "phone": "575 385 891",
-    "photo": "https://randomuser.me/api/portraits/men/99.jpg",
-    "hireDate": "2018-05-12",
-    "employmentHistory": [
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-634",
-        "startDate": "2018-01-08",
-        "endDate": "2019-11-08"
-      },
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-236",
-        "startDate": "2021-12-18",
-        "endDate": "2023-03-09"
-      },
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-397",
-        "startDate": "2023-06-14",
-        "endDate": "2023-08-19"
-      }
-    ]
-  },
-  {
-    "id": 115,
-    "firstName": "Anita",
-    "lastName": "Jarmuła",
-    "role": "Business Analyst",
-    "email": "jerzyrduch@fundacja.com",
-    "phone": "+48 534 622 044",
-    "photo": "https://randomuser.me/api/portraits/women/84.jpg",
-    "hireDate": "2015-06-07",
-    "employmentHistory": [
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-512",
-        "startDate": "2020-06-23",
-        "endDate": "2023-10-25"
-      }
-    ]
-  },
-  {
-    "id": 116,
-    "firstName": "Ewelina",
-    "lastName": "Wojak",
-    "role": "Business Analyst",
-    "email": "adadziduch@hotmail.com",
-    "phone": "+48 730 866 485",
-    "photo": "https://randomuser.me/api/portraits/women/35.jpg",
-    "hireDate": "2014-07-07",
-    "employmentHistory": [
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-703",
-        "startDate": "2017-01-26",
-        "endDate": "2023-11-09"
-      }
-    ]
-  },
-  {
-    "id": 117,
-    "firstName": "Stanisław",
-    "lastName": "Śmieszek",
-    "role": "Frontend Developer",
-    "email": "lradzio@gmail.com",
-    "phone": "+48 607 359 878",
-    "photo": "https://randomuser.me/api/portraits/men/37.jpg",
-    "hireDate": "2020-06-23",
-    "employmentHistory": [
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-916",
-        "startDate": "2015-11-21",
-        "endDate": "2022-04-03"
-      }
-    ]
-  },
-  {
-    "id": 118,
-    "firstName": "Gustaw",
-    "lastName": "Miszkurka",
-    "role": "UI/UX Designer",
-    "email": "jgrzelec@fpuh.org",
-    "phone": "661 611 466",
-    "photo": "https://randomuser.me/api/portraits/women/10.jpg",
-    "hireDate": "2017-11-03",
-    "employmentHistory": [
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-355",
-        "startDate": "2018-04-23",
-        "endDate": "2022-06-06"
-      }
-    ]
-  },
-  {
-    "id": 119,
-    "firstName": "Olaf",
-    "lastName": "Brodowicz",
-    "role": "Fullstack Developer",
-    "email": "hynekkacper@onet.pl",
-    "phone": "664 432 263",
-    "photo": "https://randomuser.me/api/portraits/men/15.jpg",
-    "hireDate": "2015-01-14",
-    "employmentHistory": [
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-451",
-        "startDate": "2020-09-20",
-        "endDate": "2023-09-21"
-      }
-    ]
-  },
-  {
-    "id": 120,
-    "firstName": "Stanisław",
-    "lastName": "Idec",
-    "role": "Backend Developer",
-    "email": "lucmonika@o2.pl",
-    "phone": "+48 783 445 920",
-    "photo": "https://randomuser.me/api/portraits/men/72.jpg",
-    "hireDate": "2017-02-12",
-    "employmentHistory": [
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-529",
-        "startDate": "2020-02-19",
-        "endDate": "2021-02-01"
-      }
-    ]
-  },
-  {
-    "id": 121,
-    "firstName": "Sonia",
-    "lastName": "Habdas",
-    "role": "Backend Developer",
-    "email": "nataniel86@grupa.com",
-    "phone": "733 065 257",
-    "photo": "https://randomuser.me/api/portraits/men/54.jpg",
-    "hireDate": "2023-09-27",
-    "employmentHistory": [
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-350",
-        "startDate": "2020-01-09",
-        "endDate": "2023-08-25"
-      },
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-508",
-        "startDate": "2019-05-31",
-        "endDate": "2023-09-19"
-      },
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-146",
-        "startDate": "2020-01-24",
-        "endDate": "2020-02-13"
-      }
-    ]
-  },
-  {
-    "id": 122,
-    "firstName": "Krystyna",
-    "lastName": "Dulewicz",
-    "role": "Frontend Developer",
-    "email": "towarekklara@gabinety.com",
-    "phone": "570 682 198",
-    "photo": "https://randomuser.me/api/portraits/women/24.jpg",
-    "hireDate": "2016-10-07",
-    "employmentHistory": [
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-586",
-        "startDate": "2021-09-14",
-        "endDate": "2024-04-11"
-      }
-    ]
-  },
-  {
-    "id": 123,
-    "firstName": "Dominik",
-    "lastName": "Brańka",
-    "role": "Project Manager",
-    "email": "mikolaj18@spoldzielnia.com",
-    "phone": "503 552 701",
-    "photo": "https://randomuser.me/api/portraits/women/82.jpg",
-    "hireDate": "2018-01-01",
-    "employmentHistory": [
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-838",
-        "startDate": "2016-08-01",
-        "endDate": "2017-08-30"
-      }
-    ]
-  },
-  {
-    "id": 124,
-    "firstName": "Stefan",
-    "lastName": "Stochmal",
-    "role": "UI/UX Designer",
-    "email": "olafkurp@bazyluk-furgal.net",
-    "phone": "+48 530 079 585",
-    "photo": "https://randomuser.me/api/portraits/men/12.jpg",
-    "hireDate": "2011-12-08",
-    "employmentHistory": [
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-230",
-        "startDate": "2020-07-23",
-        "endDate": "2025-01-09"
-      },
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-866",
-        "startDate": "2016-04-04",
-        "endDate": "2020-05-25"
-      }
-    ]
-  },
-  {
-    "id": 125,
-    "firstName": "Nicole",
-    "lastName": "Kędziorek",
-    "role": "Project Manager",
-    "email": "jozefgranat@fundacja.com",
-    "phone": "+48 577 549 920",
-    "photo": "https://randomuser.me/api/portraits/women/8.jpg",
-    "hireDate": "2012-03-21",
-    "employmentHistory": [
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-460",
-        "startDate": "2023-08-23",
-        "endDate": "2024-09-29"
-      },
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-863",
-        "startDate": "2019-06-07",
-        "endDate": "2023-05-11"
-      }
-    ]
-  },
-  {
-    "id": 126,
-    "firstName": "Marcin",
-    "lastName": "Błażejewicz",
-    "role": "UI/UX Designer",
-    "email": "aniela82@onet.pl",
-    "phone": "666 902 235",
-    "photo": "https://randomuser.me/api/portraits/women/5.jpg",
-    "hireDate": "2011-06-08",
-    "employmentHistory": [
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-161",
-        "startDate": "2016-04-02",
-        "endDate": "2018-08-17"
-      }
-    ]
-  },
-  {
-    "id": 127,
-    "firstName": "Hubert",
-    "lastName": "Samiec",
-    "role": "Business Analyst",
-    "email": "milosz90@hotmail.com",
-    "phone": "889 623 867",
-    "photo": "https://randomuser.me/api/portraits/men/31.jpg",
-    "hireDate": "2023-08-21",
-    "employmentHistory": [
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-984",
-        "startDate": "2017-01-21",
-        "endDate": "2017-07-14"
-      },
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-352",
-        "startDate": "2017-09-22",
-        "endDate": "2025-02-22"
-      }
-    ]
-  },
-  {
-    "id": 128,
-    "firstName": "Justyna",
-    "lastName": "Paszkowiak",
-    "role": "Fullstack Developer",
-    "email": "ignacygrzywnowicz@strama.net",
-    "phone": "+48 889 896 598",
-    "photo": "https://randomuser.me/api/portraits/men/64.jpg",
-    "hireDate": "2012-06-13",
-    "employmentHistory": [
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-132",
-        "startDate": "2019-05-09",
-        "endDate": "2021-09-02"
-      },
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-336",
-        "startDate": "2017-11-21",
-        "endDate": "2021-08-17"
-      },
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-913",
-        "startDate": "2022-12-26",
-        "endDate": "2024-04-27"
-      }
-    ]
-  },
-  {
-    "id": 129,
-    "firstName": "Julian",
-    "lastName": "Dąbroś",
-    "role": "Fullstack Developer",
-    "email": "igwara@ppuh.org",
-    "phone": "721 267 310",
-    "photo": "https://randomuser.me/api/portraits/women/33.jpg",
-    "hireDate": "2015-05-08",
-    "employmentHistory": [
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-707",
-        "startDate": "2015-10-22",
-        "endDate": "2020-03-02"
-      },
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-893",
-        "startDate": "2021-12-18",
-        "endDate": "2025-07-19"
-      }
-    ]
-  },
-  {
-    "id": 130,
-    "firstName": "Aurelia",
-    "lastName": "Droś",
-    "role": "UI/UX Designer",
-    "email": "anastaly@interia.pl",
-    "phone": "731 466 157",
-    "photo": "https://randomuser.me/api/portraits/men/1.jpg",
-    "hireDate": "2022-02-24",
-    "employmentHistory": [
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-812",
-        "startDate": "2016-07-07",
-        "endDate": "2018-07-01"
-      },
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-528",
-        "startDate": "2019-02-28",
-        "endDate": "2020-01-08"
-      }
-    ]
-  },
-  {
-    "id": 131,
-    "firstName": "Sonia",
-    "lastName": "Biegała",
-    "role": "Business Analyst",
-    "email": "murachanita@ppuh.com",
-    "phone": "+48 725 990 137",
-    "photo": "https://randomuser.me/api/portraits/women/43.jpg",
-    "hireDate": "2016-04-21",
-    "employmentHistory": [
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-446",
-        "startDate": "2016-03-15",
-        "endDate": "2021-01-14"
-      },
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-643",
-        "startDate": "2023-07-25",
-        "endDate": "2025-07-01"
-      },
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-597",
-        "startDate": "2020-07-08",
-        "endDate": "2025-08-18"
-      }
-    ]
-  },
-  {
-    "id": 132,
-    "firstName": "Anita",
-    "lastName": "Baster",
-    "role": "Backend Developer",
-    "email": "iciekdominik@gabinety.pl",
-    "phone": "+48 727 600 540",
-    "photo": "https://randomuser.me/api/portraits/women/59.jpg",
-    "hireDate": "2012-07-12",
-    "employmentHistory": [
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-607",
-        "startDate": "2019-02-09",
-        "endDate": "2023-01-01"
-      }
-    ]
-  },
-  {
-    "id": 133,
-    "firstName": "Eliza",
-    "lastName": "Sieradzan",
-    "role": "Business Analyst",
-    "email": "dorynektomasz@bajak-fulara.pl",
-    "phone": "+48 22 704 68 66",
-    "photo": "https://randomuser.me/api/portraits/women/75.jpg",
-    "hireDate": "2019-07-24",
-    "employmentHistory": [
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-390",
-        "startDate": "2020-12-12",
-        "endDate": "2022-05-21"
-      }
-    ]
-  },
-  {
-    "id": 134,
-    "firstName": "Olgierd",
-    "lastName": "Piekart",
-    "role": "Business Analyst",
-    "email": "natanielwac@interia.pl",
-    "phone": "519 856 617",
-    "photo": "https://randomuser.me/api/portraits/women/74.jpg",
-    "hireDate": "2020-12-14",
-    "employmentHistory": [
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-591",
-        "startDate": "2017-01-18",
-        "endDate": "2023-08-03"
-      }
-    ]
-  },
-  {
-    "id": 135,
-    "firstName": "Albert",
-    "lastName": "Tolak",
-    "role": "Frontend Developer",
-    "email": "kowalarozalia@klebba.com",
-    "phone": "884 854 373",
-    "photo": "https://randomuser.me/api/portraits/men/56.jpg",
-    "hireDate": "2021-10-14",
-    "employmentHistory": [
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-971",
-        "startDate": "2019-05-22",
-        "endDate": "2024-01-22"
-      },
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-414",
-        "startDate": "2015-12-09",
-        "endDate": "2023-06-13"
-      },
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-368",
-        "startDate": "2020-10-10",
-        "endDate": "2020-12-22"
-      }
-    ]
-  },
-  {
-    "id": 136,
-    "firstName": "Julian",
-    "lastName": "Rajch",
-    "role": "DevOps Engineer",
-    "email": "adrianna99@interia.pl",
-    "phone": "532 944 910",
-    "photo": "https://randomuser.me/api/portraits/men/28.jpg",
-    "hireDate": "2013-05-30",
-    "employmentHistory": [
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-429",
-        "startDate": "2015-12-26",
-        "endDate": "2019-09-12"
-      },
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-613",
-        "startDate": "2020-09-16",
-        "endDate": "2023-07-26"
-      }
-    ]
-  },
-  {
-    "id": 137,
-    "firstName": "Alan",
-    "lastName": "Klinkosz",
-    "role": "DevOps Engineer",
-    "email": "hstepka@gmail.com",
-    "phone": "+48 609 235 934",
-    "photo": "https://randomuser.me/api/portraits/men/2.jpg",
-    "hireDate": "2024-01-28",
-    "employmentHistory": [
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-912",
-        "startDate": "2017-12-16",
-        "endDate": "2019-11-15"
-      }
-    ]
-  },
-  {
-    "id": 138,
-    "firstName": "Gustaw",
-    "lastName": "Krochmal",
-    "role": "Project Manager",
-    "email": "komisarekkajetan@gmail.com",
-    "phone": "+48 537 214 256",
-    "photo": "https://randomuser.me/api/portraits/men/22.jpg",
-    "hireDate": "2014-04-09",
-    "employmentHistory": [
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-521",
-        "startDate": "2021-10-04",
-        "endDate": "2023-02-14"
-      },
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-158",
-        "startDate": "2021-11-17",
-        "endDate": "2023-01-08"
-      }
-    ]
-  },
-  {
-    "id": 139,
-    "firstName": "Marika",
-    "lastName": "Wawrzynek",
-    "role": "Frontend Developer",
-    "email": "gzielke@ppuh.org",
-    "phone": "+48 664 616 877",
-    "photo": "https://randomuser.me/api/portraits/men/87.jpg",
-    "hireDate": "2018-02-09",
-    "employmentHistory": [
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-554",
-        "startDate": "2022-07-10",
-        "endDate": "2022-11-14"
-      },
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-431",
-        "startDate": "2020-04-11",
-        "endDate": "2020-10-01"
-      }
-    ]
-  },
-  {
-    "id": 140,
-    "firstName": "Olga",
-    "lastName": "Waraksa",
-    "role": "Frontend Developer",
-    "email": "gonsiorradoslaw@lademann-kloch.pl",
-    "phone": "+48 32 136 91 57",
-    "photo": "https://randomuser.me/api/portraits/men/98.jpg",
-    "hireDate": "2017-07-16",
-    "employmentHistory": [
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-650",
-        "startDate": "2019-08-28",
-        "endDate": "2023-09-05"
-      }
-    ]
-  },
-  {
-    "id": 141,
-    "firstName": "Malwina",
-    "lastName": "Gomuła",
-    "role": "QA Engineer",
-    "email": "vflieger@stowarzyszenie.org",
-    "phone": "+48 694 657 612",
-    "photo": "https://randomuser.me/api/portraits/women/73.jpg",
-    "hireDate": "2022-11-19",
-    "employmentHistory": [
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-806",
-        "startDate": "2019-06-02",
-        "endDate": "2021-01-30"
-      },
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-893",
-        "startDate": "2016-09-01",
-        "endDate": "2020-04-29"
-      }
-    ]
-  },
-  {
-    "id": 142,
-    "firstName": "Fabian",
-    "lastName": "Węgrzynek",
-    "role": "Business Analyst",
-    "email": "myszakaniela@grupa.com",
-    "phone": "+48 32 321 09 87",
-    "photo": "https://randomuser.me/api/portraits/women/8.jpg",
-    "hireDate": "2019-04-05",
-    "employmentHistory": [
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-474",
-        "startDate": "2016-11-15",
-        "endDate": "2019-10-05"
-      }
-    ]
-  },
-  {
-    "id": 143,
-    "firstName": "Ksawery",
-    "lastName": "Nieradzik",
-    "role": "Frontend Developer",
-    "email": "wielgateliza@yahoo.com",
-    "phone": "601 025 543",
-    "photo": "https://randomuser.me/api/portraits/men/74.jpg",
-    "hireDate": "2012-04-05",
-    "employmentHistory": [
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-448",
-        "startDate": "2022-07-27",
-        "endDate": "2024-10-30"
-      },
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-163",
-        "startDate": "2021-09-13",
-        "endDate": "2025-08-21"
-      },
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-478",
-        "startDate": "2020-05-13",
-        "endDate": "2023-01-05"
-      }
-    ]
-  },
-  {
-    "id": 144,
-    "firstName": "Melania",
-    "lastName": "Wochnik",
-    "role": "Business Analyst",
-    "email": "igormizak@grupa.org",
-    "phone": "572 406 718",
-    "photo": "https://randomuser.me/api/portraits/men/71.jpg",
-    "hireDate": "2013-12-25",
-    "employmentHistory": [
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-405",
-        "startDate": "2019-05-31",
-        "endDate": "2020-02-17"
-      },
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-655",
-        "startDate": "2020-04-04",
-        "endDate": "2024-07-08"
-      }
-    ]
-  },
-  {
-    "id": 145,
-    "firstName": "Igor",
-    "lastName": "Palonek",
-    "role": "Frontend Developer",
-    "email": "wojciech82@yahoo.com",
-    "phone": "+48 797 442 105",
-    "photo": "https://randomuser.me/api/portraits/men/19.jpg",
-    "hireDate": "2012-05-09",
-    "employmentHistory": [
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-635",
-        "startDate": "2023-01-16",
-        "endDate": "2023-05-06"
-      }
-    ]
-  },
-  {
-    "id": 146,
-    "firstName": "Gustaw",
-    "lastName": "Kurda",
-    "role": "DevOps Engineer",
-    "email": "mjanc@hotmail.com",
-    "phone": "+48 32 127 05 99",
-    "photo": "https://randomuser.me/api/portraits/women/89.jpg",
-    "hireDate": "2020-01-20",
-    "employmentHistory": [
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-972",
-        "startDate": "2019-11-21",
-        "endDate": "2019-11-28"
-      },
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-466",
-        "startDate": "2020-05-15",
-        "endDate": "2021-10-01"
-      }
-    ]
-  },
-  {
-    "id": 147,
-    "firstName": "Sara",
-    "lastName": "Młyńczak",
-    "role": "Project Manager",
-    "email": "gustaw52@wawrzynkiewicz.pl",
-    "phone": "+48 609 343 218",
-    "photo": "https://randomuser.me/api/portraits/women/56.jpg",
-    "hireDate": "2013-05-17",
-    "employmentHistory": [
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-830",
-        "startDate": "2022-04-18",
-        "endDate": "2024-05-07"
-      }
-    ]
-  },
-  {
-    "id": 148,
-    "firstName": "Paweł",
-    "lastName": "Czubaj",
-    "role": "DevOps Engineer",
-    "email": "dzacharczuk@gmail.com",
-    "phone": "+48 723 224 195",
-    "photo": "https://randomuser.me/api/portraits/men/97.jpg",
-    "hireDate": "2011-07-21",
-    "employmentHistory": [
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-657",
-        "startDate": "2017-10-03",
-        "endDate": "2019-01-31"
-      },
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-356",
-        "startDate": "2023-03-11",
-        "endDate": "2023-03-13"
-      }
-    ]
-  },
-  {
-    "id": 149,
-    "firstName": "Patryk",
-    "lastName": "Lesik",
-    "role": "DevOps Engineer",
-    "email": "demianczukjozef@interia.pl",
-    "phone": "+48 513 573 884",
-    "photo": "https://randomuser.me/api/portraits/men/39.jpg",
-    "hireDate": "2011-01-06",
-    "employmentHistory": [
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-997",
-        "startDate": "2016-01-16",
-        "endDate": "2020-09-16"
-      }
-    ]
-  },
-  {
-    "id": 150,
-    "firstName": "Justyna",
-    "lastName": "Schubert",
-    "role": "Business Analyst",
-    "email": "ugalek@ppuh.com",
-    "phone": "882 832 451",
-    "photo": "https://randomuser.me/api/portraits/men/25.jpg",
-    "hireDate": "2019-02-16",
-    "employmentHistory": [
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-248",
-        "startDate": "2022-05-15",
-        "endDate": "2022-08-27"
-      }
-    ]
-  },
-  {
-    "id": 151,
-    "firstName": "Klara",
-    "lastName": "Jaskóła",
-    "role": "Business Analyst",
-    "email": "piotr09@interia.pl",
-    "phone": "+48 530 908 298",
-    "photo": "https://randomuser.me/api/portraits/women/62.jpg",
-    "hireDate": "2015-08-12",
-    "employmentHistory": [
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-846",
-        "startDate": "2015-11-23",
-        "endDate": "2015-12-03"
-      },
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-608",
-        "startDate": "2019-05-25",
-        "endDate": "2023-07-27"
-      }
-    ]
-  },
-  {
-    "id": 152,
-    "firstName": "Tola",
-    "lastName": "Świć",
-    "role": "QA Engineer",
-    "email": "jedrzej98@spoldzielnia.com",
-    "phone": "728 996 884",
-    "photo": "https://randomuser.me/api/portraits/women/25.jpg",
-    "hireDate": "2019-12-16",
-    "employmentHistory": [
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-716",
-        "startDate": "2018-03-03",
-        "endDate": "2024-05-08"
-      },
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-406",
-        "startDate": "2019-10-04",
-        "endDate": "2024-03-14"
-      },
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-300",
-        "startDate": "2018-07-16",
-        "endDate": "2019-06-13"
-      }
-    ]
-  },
-  {
-    "id": 153,
-    "firstName": "Nikodem",
-    "lastName": "Sołek",
-    "role": "UI/UX Designer",
-    "email": "dorotaligenza@o2.pl",
-    "phone": "+48 32 809 22 91",
-    "photo": "https://randomuser.me/api/portraits/women/84.jpg",
-    "hireDate": "2019-07-01",
-    "employmentHistory": [
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-702",
-        "startDate": "2017-11-05",
-        "endDate": "2022-07-19"
-      },
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-595",
-        "startDate": "2020-06-16",
-        "endDate": "2024-07-04"
-      }
-    ]
-  },
-  {
-    "id": 154,
-    "firstName": "Kamila",
-    "lastName": "Siekierka",
-    "role": "Backend Developer",
-    "email": "winekiwo@yahoo.com",
-    "phone": "+48 730 742 352",
-    "photo": "https://randomuser.me/api/portraits/women/66.jpg",
-    "hireDate": "2024-05-28",
-    "employmentHistory": [
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-195",
-        "startDate": "2021-04-21",
-        "endDate": "2021-07-25"
-      },
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-861",
-        "startDate": "2016-10-20",
-        "endDate": "2017-09-12"
-      }
-    ]
-  },
-  {
-    "id": 155,
-    "firstName": "Mieszko",
-    "lastName": "Działak",
-    "role": "QA Engineer",
-    "email": "siemienczukszymon@ppuh.com",
-    "phone": "604 129 847",
-    "photo": "https://randomuser.me/api/portraits/men/18.jpg",
-    "hireDate": "2022-04-10",
-    "employmentHistory": [
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-467",
-        "startDate": "2022-06-03",
-        "endDate": "2025-01-04"
-      },
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-269",
-        "startDate": "2020-05-28",
-        "endDate": "2021-11-17"
-      },
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-608",
-        "startDate": "2017-04-03",
-        "endDate": "2021-03-11"
-      }
-    ]
-  },
-  {
-    "id": 156,
-    "firstName": "Patryk",
-    "lastName": "Matusewicz",
-    "role": "DevOps Engineer",
-    "email": "alada@lukasz.com",
-    "phone": "+48 739 614 502",
-    "photo": "https://randomuser.me/api/portraits/women/50.jpg",
-    "hireDate": "2014-04-09",
-    "employmentHistory": [
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-390",
-        "startDate": "2019-09-10",
-        "endDate": "2021-08-26"
-      },
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-240",
-        "startDate": "2021-02-28",
-        "endDate": "2022-09-04"
-      },
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-888",
-        "startDate": "2015-11-16",
-        "endDate": "2021-01-24"
-      }
-    ]
-  },
-  {
-    "id": 157,
-    "firstName": "Konstanty",
-    "lastName": "Grygorowicz",
-    "role": "DevOps Engineer",
-    "email": "reckolukasz@fpuh.com",
-    "phone": "783 101 730",
-    "photo": "https://randomuser.me/api/portraits/women/79.jpg",
-    "hireDate": "2020-06-15",
-    "employmentHistory": [
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-937",
-        "startDate": "2016-04-03",
-        "endDate": "2025-01-16"
-      },
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-770",
-        "startDate": "2018-07-15",
-        "endDate": "2025-03-14"
-      }
-    ]
-  },
-  {
-    "id": 158,
-    "firstName": "Grzegorz",
-    "lastName": "Merchel",
-    "role": "Fullstack Developer",
-    "email": "borysewiczkalina@pytlarz.pl",
-    "phone": "737 317 675",
-    "photo": "https://randomuser.me/api/portraits/women/83.jpg",
-    "hireDate": "2017-05-26",
-    "employmentHistory": [
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-575",
-        "startDate": "2022-10-19",
-        "endDate": "2023-01-13"
-      }
-    ]
-  },
-  {
-    "id": 159,
-    "firstName": "Paweł",
-    "lastName": "Nawrotek",
-    "role": "Business Analyst",
-    "email": "zchwedczuk@gmail.com",
-    "phone": "505 025 149",
-    "photo": "https://randomuser.me/api/portraits/men/16.jpg",
-    "hireDate": "2020-10-05",
-    "employmentHistory": [
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-297",
-        "startDate": "2016-07-17",
-        "endDate": "2021-06-26"
-      }
-    ]
-  },
-  {
-    "id": 160,
-    "firstName": "Marek",
-    "lastName": "Borysiewicz",
-    "role": "UI/UX Designer",
-    "email": "krystiankempny@kolber-helak.net",
-    "phone": "734 442 048",
-    "photo": "https://randomuser.me/api/portraits/men/1.jpg",
-    "hireDate": "2022-01-25",
-    "employmentHistory": [
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-862",
-        "startDate": "2019-12-21",
-        "endDate": "2023-01-05"
-      }
-    ]
-  },
-  {
-    "id": 161,
-    "firstName": "Anna Maria",
-    "lastName": "Kurp",
-    "role": "UI/UX Designer",
-    "email": "kalinkamarianna@ppuh.com",
-    "phone": "535 615 436",
-    "photo": "https://randomuser.me/api/portraits/women/86.jpg",
-    "hireDate": "2022-11-11",
-    "employmentHistory": [
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-583",
-        "startDate": "2017-05-17",
-        "endDate": "2018-07-26"
-      }
-    ]
-  },
-  {
-    "id": 162,
-    "firstName": "Kornel",
-    "lastName": "Pawełko",
-    "role": "Backend Developer",
-    "email": "mojrobert@hotmail.com",
-    "phone": "+48 735 496 937",
-    "photo": "https://randomuser.me/api/portraits/women/78.jpg",
-    "hireDate": "2015-07-18",
-    "employmentHistory": [
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-459",
-        "startDate": "2017-12-27",
-        "endDate": "2024-05-10"
-      },
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-403",
-        "startDate": "2017-12-03",
-        "endDate": "2020-10-05"
-      }
-    ]
-  },
-  {
-    "id": 163,
-    "firstName": "Jędrzej",
-    "lastName": "Hinca",
-    "role": "Business Analyst",
-    "email": "daniel68@onet.pl",
-    "phone": "519 608 226",
-    "photo": "https://randomuser.me/api/portraits/men/65.jpg",
-    "hireDate": "2023-09-26",
-    "employmentHistory": [
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-569",
-        "startDate": "2018-03-30",
-        "endDate": "2019-10-23"
-      },
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-987",
-        "startDate": "2021-10-03",
-        "endDate": "2024-05-25"
-      },
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-639",
-        "startDate": "2021-11-22",
-        "endDate": "2022-12-26"
-      }
-    ]
-  },
-  {
-    "id": 164,
-    "firstName": "Jacek",
-    "lastName": "Ciuba",
-    "role": "Frontend Developer",
-    "email": "lukszaandrzej@onet.pl",
-    "phone": "503 540 076",
-    "photo": "https://randomuser.me/api/portraits/men/70.jpg",
-    "hireDate": "2011-03-18",
-    "employmentHistory": [
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-310",
-        "startDate": "2019-02-03",
-        "endDate": "2022-05-08"
-      },
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-962",
-        "startDate": "2021-04-14",
-        "endDate": "2024-09-26"
-      },
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-157",
-        "startDate": "2021-09-21",
-        "endDate": "2025-07-26"
-      }
-    ]
-  },
-  {
-    "id": 165,
-    "firstName": "Adrianna",
-    "lastName": "Maruszczyk",
-    "role": "QA Engineer",
-    "email": "blankaskotarek@onet.pl",
-    "phone": "+48 22 968 03 22",
-    "photo": "https://randomuser.me/api/portraits/men/73.jpg",
-    "hireDate": "2016-06-25",
-    "employmentHistory": [
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-527",
-        "startDate": "2023-02-19",
-        "endDate": "2024-10-31"
-      }
-    ]
-  },
-  {
-    "id": 166,
-    "firstName": "Eliza",
-    "lastName": "Lepa",
-    "role": "Project Manager",
-    "email": "maurycy65@zajko.com",
-    "phone": "662 804 646",
-    "photo": "https://randomuser.me/api/portraits/men/20.jpg",
-    "hireDate": "2020-01-24",
-    "employmentHistory": [
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-477",
-        "startDate": "2018-07-04",
-        "endDate": "2023-12-26"
-      }
-    ]
-  },
-  {
-    "id": 167,
-    "firstName": "Maciej",
-    "lastName": "Łabuś",
-    "role": "DevOps Engineer",
-    "email": "miloszbernatowicz@yahoo.com",
-    "phone": "607 265 076",
-    "photo": "https://randomuser.me/api/portraits/women/78.jpg",
-    "hireDate": "2019-03-28",
-    "employmentHistory": [
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-904",
-        "startDate": "2022-11-17",
-        "endDate": "2024-11-03"
-      }
-    ]
-  },
-  {
-    "id": 168,
-    "firstName": "Stefan",
-    "lastName": "Różewicz",
-    "role": "Frontend Developer",
-    "email": "lagiewkakornelia@onet.pl",
-    "phone": "+48 721 339 542",
-    "photo": "https://randomuser.me/api/portraits/men/84.jpg",
-    "hireDate": "2023-10-04",
-    "employmentHistory": [
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-841",
-        "startDate": "2023-05-24",
-        "endDate": "2024-01-01"
-      },
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-673",
-        "startDate": "2016-07-25",
-        "endDate": "2018-09-06"
-      },
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-140",
-        "startDate": "2017-10-24",
-        "endDate": "2021-03-03"
-      }
-    ]
-  },
-  {
-    "id": 169,
-    "firstName": "Franciszek",
-    "lastName": "Kargol",
-    "role": "UI/UX Designer",
-    "email": "bartek25@interia.pl",
-    "phone": "22 668 90 98",
-    "photo": "https://randomuser.me/api/portraits/women/61.jpg",
-    "hireDate": "2020-10-29",
-    "employmentHistory": [
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-320",
-        "startDate": "2023-01-29",
-        "endDate": "2025-07-01"
-      }
-    ]
-  },
-  {
-    "id": 170,
-    "firstName": "Ignacy",
-    "lastName": "Dynia",
-    "role": "Business Analyst",
-    "email": "ewaczuj@gabinety.pl",
-    "phone": "+48 517 716 634",
-    "photo": "https://randomuser.me/api/portraits/men/32.jpg",
-    "hireDate": "2022-10-20",
-    "employmentHistory": [
-      {
-        "projectName": "E-commerce Platform",
-        "projectCode": "ECM-473",
-        "startDate": "2022-10-05",
-        "endDate": "2024-05-29"
-      },
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-839",
-        "startDate": "2019-07-11",
-        "endDate": "2019-08-29"
-      },
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-385",
-        "startDate": "2019-12-14",
-        "endDate": "2020-05-13"
-      }
-    ]
-  },
-  {
-    "id": 171,
-    "firstName": "Adrianna",
-    "lastName": "Kosela",
-    "role": "Fullstack Developer",
-    "email": "liskiewiczolgierd@spoldzielnia.pl",
-    "phone": "+48 539 583 886",
-    "photo": "https://randomuser.me/api/portraits/women/85.jpg",
-    "hireDate": "2014-12-11",
-    "employmentHistory": [
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-387",
-        "startDate": "2019-02-02",
-        "endDate": "2023-01-28"
-      },
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-331",
-        "startDate": "2019-05-03",
-        "endDate": "2024-08-01"
-      },
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-669",
-        "startDate": "2015-12-14",
-        "endDate": "2020-02-22"
-      }
-    ]
-  },
-  {
-    "id": 172,
-    "firstName": "Dominik",
-    "lastName": "Ułanowicz",
-    "role": "Project Manager",
-    "email": "madejczykksawery@ppuh.pl",
-    "phone": "+48 692 177 318",
-    "photo": "https://randomuser.me/api/portraits/women/39.jpg",
-    "hireDate": "2015-03-15",
-    "employmentHistory": [
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-297",
-        "startDate": "2020-09-09",
-        "endDate": "2022-07-25"
-      },
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-189",
-        "startDate": "2023-04-01",
-        "endDate": "2025-05-14"
-      },
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-929",
-        "startDate": "2020-04-20",
-        "endDate": "2021-06-26"
-      }
-    ]
-  },
-  {
-    "id": 173,
-    "firstName": "Julianna",
-    "lastName": "Migda",
-    "role": "DevOps Engineer",
-    "email": "michalfogt@pierzak-gaudyn.com",
-    "phone": "729 769 402",
-    "photo": "https://randomuser.me/api/portraits/women/81.jpg",
-    "hireDate": "2024-03-04",
-    "employmentHistory": [
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-705",
-        "startDate": "2017-01-02",
-        "endDate": "2019-03-30"
-      },
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-571",
-        "startDate": "2022-12-15",
-        "endDate": "2024-05-01"
-      }
-    ]
-  },
-  {
-    "id": 174,
-    "firstName": "Filip",
-    "lastName": "Baumgart",
-    "role": "Fullstack Developer",
-    "email": "konstantyhallmann@fundacja.com",
-    "phone": "727 093 025",
-    "photo": "https://randomuser.me/api/portraits/women/46.jpg",
-    "hireDate": "2011-06-22",
-    "employmentHistory": [
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-299",
-        "startDate": "2020-11-18",
-        "endDate": "2021-02-15"
-      },
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-943",
-        "startDate": "2019-03-22",
-        "endDate": "2021-07-15"
-      }
-    ]
-  },
-  {
-    "id": 175,
-    "firstName": "Roksana",
-    "lastName": "Wardziak",
-    "role": "QA Engineer",
-    "email": "miotketomasz@yahoo.com",
-    "phone": "+48 577 344 070",
-    "photo": "https://randomuser.me/api/portraits/women/28.jpg",
-    "hireDate": "2013-03-10",
-    "employmentHistory": [
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-134",
-        "startDate": "2023-07-18",
-        "endDate": "2024-09-19"
-      },
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-519",
-        "startDate": "2021-07-30",
-        "endDate": "2023-08-18"
-      },
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-992",
-        "startDate": "2016-01-11",
-        "endDate": "2023-06-30"
-      }
-    ]
-  },
-  {
-    "id": 176,
-    "firstName": "Artur",
-    "lastName": "Włodyka",
-    "role": "Frontend Developer",
-    "email": "michalzbroja@o2.pl",
-    "phone": "799 628 588",
-    "photo": "https://randomuser.me/api/portraits/men/3.jpg",
-    "hireDate": "2014-11-17",
-    "employmentHistory": [
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-818",
-        "startDate": "2018-06-16",
-        "endDate": "2025-04-30"
-      },
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-982",
-        "startDate": "2022-01-14",
-        "endDate": "2022-10-15"
-      },
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-169",
-        "startDate": "2022-07-07",
-        "endDate": "2025-06-02"
-      }
-    ]
-  },
-  {
-    "id": 177,
-    "firstName": "Maurycy",
-    "lastName": "Skup",
-    "role": "UI/UX Designer",
-    "email": "danielradzewicz@o2.pl",
-    "phone": "+48 881 915 887",
-    "photo": "https://randomuser.me/api/portraits/men/65.jpg",
-    "hireDate": "2022-12-30",
-    "employmentHistory": [
-      {
-        "projectName": "Mobile Banking App",
-        "projectCode": "MBA-854",
-        "startDate": "2016-02-10",
-        "endDate": "2019-11-19"
-      },
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-217",
-        "startDate": "2022-10-17",
-        "endDate": "2023-06-22"
-      }
-    ]
-  },
-  {
-    "id": 178,
-    "firstName": "Bruno",
-    "lastName": "Kryza",
-    "role": "Project Manager",
-    "email": "ifidura@o2.pl",
-    "phone": "532 795 033",
-    "photo": "https://randomuser.me/api/portraits/women/42.jpg",
-    "hireDate": "2011-08-09",
-    "employmentHistory": [
-      {
-        "projectName": "Healthcare Portal",
-        "projectCode": "HLT-795",
-        "startDate": "2022-03-13",
-        "endDate": "2025-04-17"
-      },
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-715",
-        "startDate": "2019-03-19",
-        "endDate": "2020-03-08"
-      },
-      {
-        "projectName": "ERP Solution",
-        "projectCode": "ERP-790",
-        "startDate": "2021-04-07",
-        "endDate": "2023-11-18"
-      }
-    ]
-  },
-  {
-    "id": 179,
-    "firstName": "Angelika",
-    "lastName": "Dziuban",
-    "role": "Project Manager",
-    "email": "justyna88@spoldzielnia.com",
-    "phone": "735 917 109",
-    "photo": "https://randomuser.me/api/portraits/men/85.jpg",
-    "hireDate": "2024-03-21",
-    "employmentHistory": [
-      {
-        "projectName": "IoT Platform",
-        "projectCode": "IOT-783",
-        "startDate": "2023-06-19",
-        "endDate": "2023-11-30"
-      },
-      {
-        "projectName": "CRM System",
-        "projectCode": "CRM-372",
-        "startDate": "2015-10-27",
-        "endDate": "2021-07-21"
-      }
-    ]
-  },
-  {
-    "id": 180,
-    "firstName": "Maciej",
-    "lastName": "Handzel",
-    "role": "UI/UX Designer",
-    "email": "mikolajmydlak@hotmail.com",
-    "phone": "+48 537 576 032",
-    "photo": "https://randomuser.me/api/portraits/women/3.jpg",
-    "hireDate": "2016-10-11",
-    "employmentHistory": [
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-845",
-        "startDate": "2019-07-14",
-        "endDate": "2019-10-22"
-      },
-      {
-        "projectName": "AI Research Project",
-        "projectCode": "AIR-111",
-        "startDate": "2021-07-03",
-        "endDate": "2025-04-07"
-      }
-    ]
-  }
+    {
+        "id": 1,
+        "firstName": "Kornel",
+        "lastName": "Gałęza",
+        "role": "QA Engineer",
+        "email": "fijolkamila@nalazek-pastor.com",
+        "phone": "696 901 197",
+        "photo": "https://randomuser.me/api/portraits/women/75.jpg",
+        "hireDate": "2020-10-06",
+        "employmentHistory": [
+            {
+                "projectName": "CRM System",
+                "projectCode": "CRM-685",
+                "startDate": "2021-05-23",
+                "endDate": "2023-10-19"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "firstName": "Eryk",
+        "lastName": "Robaszkiewicz",
+        "role": "Frontend Developer",
+        "email": "sajewiczwiktor@migda-czura.pl",
+        "phone": "+48 578 866 272",
+        "photo": "https://randomuser.me/api/portraits/men/74.jpg",
+        "hireDate": "2018-04-29",
+        "employmentHistory": [
+            {
+                "projectName": "Healthcare Portal",
+                "projectCode": "HLT-729",
+                "startDate": "2018-05-14",
+                "endDate": "2022-07-08"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "firstName": "Aleks",
+        "lastName": "Kubek",
+        "role": "QA Engineer",
+        "email": "julitagierat@gmail.com",
+        "phone": "886 232 611",
+        "photo": "https://randomuser.me/api/portraits/women/47.jpg",
+        "hireDate": "2012-10-19",
+        "employmentHistory": [
+            {
+                "projectName": "E-commerce Platform",
+                "projectCode": "ECM-262",
+                "startDate": "2022-04-26",
+                "endDate": "2022-06-30"
+            },
+            {
+                "projectName": "IoT Platform",
+                "projectCode": "IOT-171",
+                "startDate": "2021-08-05",
+                "endDate": "2021-11-28"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "firstName": "Olaf",
+        "lastName": "Graboń",
+        "role": "Project Manager",
+        "email": "maksymilian92@hotmail.com",
+        "phone": "720 341 095",
+        "photo": "https://randomuser.me/api/portraits/men/69.jpg",
+        "hireDate": "2023-10-10",
+        "employmentHistory": [
+            {
+                "projectName": "AI Research Project",
+                "projectCode": "AIR-324",
+                "startDate": "2017-12-16",
+                "endDate": "2024-04-25"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "firstName": "Iwo",
+        "lastName": "Obarzanek",
+        "role": "Backend Developer",
+        "email": "mariusz17@yahoo.com",
+        "phone": "+48 720 898 490",
+        "photo": "https://randomuser.me/api/portraits/women/65.jpg",
+        "hireDate": "2015-07-16",
+        "employmentHistory": [
+            {
+                "projectName": "CRM System",
+                "projectCode": "CRM-769",
+                "startDate": "2016-08-29",
+                "endDate": "2020-10-14"
+            },
+            {
+                "projectName": "CRM System",
+                "projectCode": "CRM-815",
+                "startDate": "2017-02-21",
+                "endDate": "2024-12-11"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "firstName": "Dariusz",
+        "lastName": "Chaber",
+        "role": "Project Manager",
+        "email": "damianmlodzik@gabinety.pl",
+        "phone": "733 343 080",
+        "photo": "https://randomuser.me/api/portraits/women/98.jpg",
+        "hireDate": "2020-10-29",
+        "employmentHistory": [
+            {
+                "projectName": "IoT Platform",
+                "projectCode": "IOT-379",
+                "startDate": "2021-05-23",
+                "endDate": "2025-03-18"
+            },
+            {
+                "projectName": "AI Research Project",
+                "projectCode": "AIR-859",
+                "startDate": "2019-10-08",
+                "endDate": "2024-05-09"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "firstName": "Marianna",
+        "lastName": "Baszak",
+        "role": "QA Engineer",
+        "email": "kacperekkonstanty@wielgos-ligenza.pl",
+        "phone": "+48 660 093 710",
+        "photo": "https://randomuser.me/api/portraits/women/12.jpg",
+        "hireDate": "2013-08-09",
+        "employmentHistory": [
+            {
+                "projectName": "AI Research Project",
+                "projectCode": "AIR-695",
+                "startDate": "2021-06-30",
+                "endDate": "2025-04-18"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "firstName": "Julita",
+        "lastName": "Thiel",
+        "role": "UI/UX Designer",
+        "email": "piotrgrabczak@fundacja.pl",
+        "phone": "519 381 858",
+        "photo": "https://randomuser.me/api/portraits/men/59.jpg",
+        "hireDate": "2024-07-26",
+        "employmentHistory": [
+            {
+                "projectName": "ERP Solution",
+                "projectCode": "ERP-886",
+                "startDate": "2022-09-07",
+                "endDate": "2023-04-14"
+            },
+            {
+                "projectName": "IoT Platform",
+                "projectCode": "IOT-126",
+                "startDate": "2023-01-04",
+                "endDate": "2023-10-01"
+            },
+            {
+                "projectName": "Healthcare Portal",
+                "projectCode": "HLT-414",
+                "startDate": "2018-05-24",
+                "endDate": "2020-04-04"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "firstName": "Mateusz",
+        "lastName": "Supernak",
+        "role": "Backend Developer",
+        "email": "anna-mariadanisz@stowarzyszenie.pl",
+        "phone": "691 833 204",
+        "photo": "https://randomuser.me/api/portraits/men/46.jpg",
+        "hireDate": "2020-12-06",
+        "employmentHistory": [
+            {
+                "projectName": "ERP Solution",
+                "projectCode": "ERP-939",
+                "startDate": "2020-01-14",
+                "endDate": "2020-11-17"
+            },
+            {
+                "projectName": "E-commerce Platform",
+                "projectCode": "ECM-101",
+                "startDate": "2016-09-30",
+                "endDate": "2025-02-19"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "firstName": "Alex",
+        "lastName": "Żołądź",
+        "role": "QA Engineer",
+        "email": "antoni83@stowarzyszenie.pl",
+        "phone": "+48 695 390 030",
+        "photo": "https://randomuser.me/api/portraits/men/37.jpg",
+        "hireDate": "2013-03-09",
+        "employmentHistory": [
+            {
+                "projectName": "IoT Platform",
+                "projectCode": "IOT-400",
+                "startDate": "2019-10-27",
+                "endDate": "2021-01-21"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "firstName": "Krzysztof",
+        "lastName": "Ochnik",
+        "role": "Project Manager",
+        "email": "kajetanklatka@yahoo.com",
+        "phone": "+48 696 206 688",
+        "photo": "https://randomuser.me/api/portraits/men/19.jpg",
+        "hireDate": "2012-05-10",
+        "employmentHistory": [
+            {
+                "projectName": "Mobile Banking App",
+                "projectCode": "MBA-805",
+                "startDate": "2016-07-19",
+                "endDate": "2020-09-14"
+            },
+            {
+                "projectName": "AI Research Project",
+                "projectCode": "AIR-952",
+                "startDate": "2015-08-28",
+                "endDate": "2016-07-17"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "firstName": "Miłosz",
+        "lastName": "Ciężka",
+        "role": "Fullstack Developer",
+        "email": "robert63@ppuh.pl",
+        "phone": "+48 732 998 405",
+        "photo": "https://randomuser.me/api/portraits/women/78.jpg",
+        "hireDate": "2013-12-27",
+        "employmentHistory": [
+            {
+                "projectName": "IoT Platform",
+                "projectCode": "IOT-125",
+                "startDate": "2016-11-09",
+                "endDate": "2018-06-14"
+            },
+            {
+                "projectName": "E-commerce Platform",
+                "projectCode": "ECM-327",
+                "startDate": "2019-03-10",
+                "endDate": "2020-10-27"
+            },
+            {
+                "projectName": "AI Research Project",
+                "projectCode": "AIR-453",
+                "startDate": "2017-04-25",
+                "endDate": "2019-11-17"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "firstName": "Maurycy",
+        "lastName": "Towarek",
+        "role": "Project Manager",
+        "email": "awezyk@onet.pl",
+        "phone": "+48 532 435 900",
+        "photo": "https://randomuser.me/api/portraits/men/80.jpg",
+        "hireDate": "2011-05-30",
+        "employmentHistory": [
+            {
+                "projectName": "AI Research Project",
+                "projectCode": "AIR-844",
+                "startDate": "2017-05-31",
+                "endDate": "2017-08-04"
+            },
+            {
+                "projectName": "CRM System",
+                "projectCode": "CRM-391",
+                "startDate": "2019-02-16",
+                "endDate": "2021-10-08"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "firstName": "Igor",
+        "lastName": "Roter",
+        "role": "Project Manager",
+        "email": "klosowiczkaja@tarasek-achtelik.pl",
+        "phone": "539 356 803",
+        "photo": "https://randomuser.me/api/portraits/men/61.jpg",
+        "hireDate": "2021-05-01",
+        "employmentHistory": [
+            {
+                "projectName": "IoT Platform",
+                "projectCode": "IOT-208",
+                "startDate": "2018-12-27",
+                "endDate": "2021-07-12"
+            },
+            {
+                "projectName": "AI Research Project",
+                "projectCode": "AIR-427",
+                "startDate": "2019-10-08",
+                "endDate": "2023-08-26"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "firstName": "Kalina",
+        "lastName": "Wojtarowicz",
+        "role": "UI/UX Designer",
+        "email": "andrzejsolarek@hotmail.com",
+        "phone": "+48 793 004 915",
+        "photo": "https://randomuser.me/api/portraits/women/24.jpg",
+        "hireDate": "2018-12-16",
+        "employmentHistory": [
+            {
+                "projectName": "CRM System",
+                "projectCode": "CRM-587",
+                "startDate": "2021-08-16",
+                "endDate": "2024-10-15"
+            },
+            {
+                "projectName": "E-commerce Platform",
+                "projectCode": "ECM-380",
+                "startDate": "2019-01-03",
+                "endDate": "2022-12-06"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "firstName": "Tymon",
+        "lastName": "Waloszczyk",
+        "role": "QA Engineer",
+        "email": "ksaweryclapa@hotmail.com",
+        "phone": "+48 667 757 646",
+        "photo": "https://randomuser.me/api/portraits/men/76.jpg",
+        "hireDate": "2021-06-22",
+        "employmentHistory": [
+            {
+                "projectName": "AI Research Project",
+                "projectCode": "AIR-369",
+                "startDate": "2023-07-14",
+                "endDate": "2023-12-05"
+            },
+            {
+                "projectName": "CRM System",
+                "projectCode": "CRM-167",
+                "startDate": "2023-01-05",
+                "endDate": "2025-04-28"
+            },
+            {
+                "projectName": "IoT Platform",
+                "projectCode": "IOT-706",
+                "startDate": "2023-06-30",
+                "endDate": "2023-08-15"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "firstName": "Szymon",
+        "lastName": "Iwańczyk",
+        "role": "Business Analyst",
+        "email": "cyprian28@ppuh.net",
+        "phone": "+48 889 329 181",
+        "photo": "https://randomuser.me/api/portraits/women/98.jpg",
+        "hireDate": "2018-06-27",
+        "employmentHistory": [
+            {
+                "projectName": "CRM System",
+                "projectCode": "CRM-987",
+                "startDate": "2016-05-15",
+                "endDate": "2022-01-19"
+            },
+            {
+                "projectName": "AI Research Project",
+                "projectCode": "AIR-791",
+                "startDate": "2018-01-12",
+                "endDate": "2018-10-21"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "firstName": "Kalina",
+        "lastName": "Paśnik",
+        "role": "UI/UX Designer",
+        "email": "eliza56@yahoo.com",
+        "phone": "780 518 229",
+        "photo": "https://randomuser.me/api/portraits/men/42.jpg",
+        "hireDate": "2015-08-01",
+        "employmentHistory": [
+            {
+                "projectName": "AI Research Project",
+                "projectCode": "AIR-508",
+                "startDate": "2016-03-21",
+                "endDate": "2018-09-29"
+            },
+            {
+                "projectName": "ERP Solution",
+                "projectCode": "ERP-154",
+                "startDate": "2022-11-08",
+                "endDate": "2024-01-15"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "firstName": "Janina",
+        "lastName": "Rozmiarek",
+        "role": "Business Analyst",
+        "email": "liwia92@forysiak-bryczek.com",
+        "phone": "572 017 399",
+        "photo": "https://randomuser.me/api/portraits/men/47.jpg",
+        "hireDate": "2022-08-31",
+        "employmentHistory": [
+            {
+                "projectName": "AI Research Project",
+                "projectCode": "AIR-397",
+                "startDate": "2021-11-14",
+                "endDate": "2023-02-10"
+            },
+            {
+                "projectName": "Healthcare Portal",
+                "projectCode": "HLT-467",
+                "startDate": "2017-01-03",
+                "endDate": "2017-06-02"
+            },
+            {
+                "projectName": "ERP Solution",
+                "projectCode": "ERP-442",
+                "startDate": "2019-03-23",
+                "endDate": "2024-07-30"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "firstName": "Emil",
+        "lastName": "Bździuch",
+        "role": "Backend Developer",
+        "email": "gzylmaurycy@onet.pl",
+        "phone": "+48 535 909 947",
+        "photo": "https://randomuser.me/api/portraits/men/57.jpg",
+        "hireDate": "2011-08-23",
+        "employmentHistory": [
+            {
+                "projectName": "ERP Solution",
+                "projectCode": "ERP-436",
+                "startDate": "2016-09-04",
+                "endDate": "2021-10-24"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "firstName": "Borys",
+        "lastName": "Suszka",
+        "role": "Backend Developer",
+        "email": "nicolelampart@interia.pl",
+        "phone": "+48 32 079 12 68",
+        "photo": "https://randomuser.me/api/portraits/women/61.jpg",
+        "hireDate": "2016-10-10",
+        "employmentHistory": [
+            {
+                "projectName": "Healthcare Portal",
+                "projectCode": "HLT-945",
+                "startDate": "2021-08-21",
+                "endDate": "2023-02-06"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "firstName": "Franciszek",
+        "lastName": "Wawszczyk",
+        "role": "Backend Developer",
+        "email": "oskarwawrzkiewicz@grupa.pl",
+        "phone": "537 880 840",
+        "photo": "https://randomuser.me/api/portraits/men/11.jpg",
+        "hireDate": "2014-06-24",
+        "employmentHistory": [
+            {
+                "projectName": "E-commerce Platform",
+                "projectCode": "ECM-706",
+                "startDate": "2021-01-11",
+                "endDate": "2024-08-01"
+            },
+            {
+                "projectName": "E-commerce Platform",
+                "projectCode": "ECM-464",
+                "startDate": "2018-06-22",
+                "endDate": "2025-02-08"
+            },
+            {
+                "projectName": "Healthcare Portal",
+                "projectCode": "HLT-372",
+                "startDate": "2017-10-15",
+                "endDate": "2023-12-07"
+            }
+        ]
+    }
 ]
